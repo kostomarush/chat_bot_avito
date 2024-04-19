@@ -1,0 +1,2230 @@
+{
+    "id": 11,
+    "jsonrpc": "2.0",
+    "result": {
+        "count": 9,
+        "channels": [
+            {
+                "channelId": "u2i-e5oB73~P6QrrPxku0wVYtQ",
+                "type": "u2i",
+                "created": 17122309100660000,
+                "updated": 17126452365183336,
+                "readOnly": false,
+                "contextActions": {
+                    "version": 6,
+                    "platformSupport": {
+                        "platforms": [
+                            "ios",
+                            "android",
+                            "web",
+                            "mav"
+                        ],
+                        "fallback": {
+                            "text": "Сообщение не поддерживается на этой платформе"
+                        }
+                    },
+                    "value": {
+                        "title": "",
+                        "actions": [
+                            {
+                                "type": "primary",
+                                "text": "Купить с доставкой",
+                                "handler": {
+                                    "type": "link",
+                                    "value": {
+                                        "deepLink": "ru.avito://1/webview?mavAuth=true\u0026url=https%3A%2F%2Fwww.avito.ru%2Fweb%2F1%2Fflower%2FflowButtonClick%3FflowId%3D63690%26flowRunId%3D512831490%26redirectUrl%3Dru.avito%253A%252F%252F1%252FdeepLinks%252Ffallbackable%252Fopen%253Ffallbacks%253D%25255B%252522ru.avito%25253A%25252F%25252F1%25252FdeepLinks%25252Fconditional%25252FappVersion%25253Fandroid%25253D131.5%25255Cu0026equal%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252FsavedAddress%2525252Fcheck%2525253FitemId%2525253D3669265045%25252522%2525255D%25255Cu0026greater%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252FsavedAddress%2525252Fcheck%2525253FitemId%2525253D3669265045%25252522%2525255D%25255Cu0026ios%25253D130.1%25255Cu0026less%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252Forder%2525252Fcreate%2525253FitemId%2525253D3669265045%2525255Cu0026source%2525253Dbuyer_invitation%25252522%2525255D%252522%25252C%252522ru.avito%25253A%25252F%25252F1%25252Fdelivery%25252Forder%25252Fcreate%25253FitemId%25253D3669265045%25255Cu0026source%25253Dbuyer_invitation%252522%25255D%26sendReaction%3Dfalse%26transitionId%3D9657504%26versionId%3D474927",
+                                        "url": "https://www.avito.ru/web/1/flower/flowButtonClick?flowId=63690\u0026flowRunId=512831490\u0026redirectUrl=https%3A%2F%2Fwww.avito.ru%2Fmoskva%2Fknigi_i_zhurnaly%2Fbogatyy_papa_bednyy_papa_3669265045%3Fsrcp%3Dbuyer_invitation%26delivery\u0026sendReaction=false\u0026transitionId=9657504\u0026versionId=474927"
+                                    }
+                                },
+                                "confirmation": null,
+                                "analytics": "9657504"
+                            },
+                            {
+                                "type": "secondary",
+                                "text": "Неинтересно",
+                                "handler": {
+                                    "type": "method_call",
+                                    "value": {
+                                        "method": "flower.flowButtonClick.v1",
+                                        "params": {
+                                            "__channelId": "u2i-e5oB73~P6QrrPxku0wVYtQ",
+                                            "flowRunId": 512831490,
+                                            "sendReaction": false,
+                                            "transitionId": 9657505
+                                        }
+                                    }
+                                },
+                                "confirmation": null,
+                                "analytics": "9657505"
+                            }
+                        ]
+                    },
+                    "type": "actions"
+                },
+                "isRead": true,
+                "isAnswered": true,
+                "tags": [],
+                "flow": "deal_confirmation_messenger",
+                "inputState": {
+                    "reason": "flower_63690",
+                    "isDisabled": false
+                },
+                "context": {
+                    "type": "item",
+                    "value": {
+                        "id": 3669265045,
+                        "title": "Богатый папа бедный папа",
+                        "isAllowMessages": true,
+                        "categoryId": 83,
+                        "rootCategoryId": 100000,
+                        "datetime": 1710502339,
+                        "location": "Москва",
+                        "images": {
+                            "main": {
+                                "140x105": "https://00.img.avito.st/image/1/1.8tSnfLaxXj2J3Y4-z2f64dPeXD0VyVo_.9gczz8p_1b16okuURdgNx6pN_vpRWI8leYilyZvAuqs",
+                                "catalog": "https://00.img.avito.st/image/1/1.8tSnfLa9Xj3R2aw7z2f64dPeXDkZ15w54dtcPxXRVj8VyVo_.bcU-U2aR3DjswV2luSsrBYyJEGxzb1t7X16RV_t70AI",
+                                "catalog_vip": "https://00.img.avito.st/image/1/1.8tSnfLa9Xj3R0sw1z2f64dPeXDkZ15wygdVcPxXRVj8VyVo_.5-JHdesKrRVDpuKOc3yaL9yIIZOg-l3-VXjDWsKY-4E"
+                            },
+                            "count": 1
+                        },
+                        "statusId": 10,
+                        "priceString": "350 ₽",
+                        "price": 350,
+                        "hidePhone": true,
+                        "sharedLocation": {
+                            "title": "Москва",
+                            "lat": 55.839891,
+                            "lon": 37.486796
+                        },
+                        "isVisibleInSearch": false,
+                        "urlPath": "/moskva/knigi_i_zhurnaly/bogatyy_papa_bednyy_papa_3669265045",
+                        "actions": [
+                            {
+                                "title": "Заблокировать",
+                                "uri": "ru.avito://1/channel/block?userId=a3bfb8a571c12761081f566983211a7e\u0026itemId=3669265045"
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "uri": "ru.avito://1/abuse/report?itemId=3669265045\u0026src=messenger"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "uri": "ru.avito://1/channel/delete?channelId=u2i-e5oB73~P6QrrPxku0wVYtQ"
+                            }
+                        ],
+                        "menu": [
+                            {
+                                "title": "Оставить отзыв",
+                                "deepLink": "ru.avito://1/rating/form?fid=789c3292de69ea2d7bfca61ddbc7e93527567d7e9f2a697ed5816f8257a39c5a45f5b32556db028e1de85d5777ede39b7725cf7c4e02020000ffff302d1963",
+                                "icon": "review"
+                            },
+                            {
+                                "title": "Заблокировать",
+                                "deepLink": "ru.avito://1/channel/block?userId=a3bfb8a571c12761081f566983211a7e\u0026channelId=u2i-e5oB73~P6QrrPxku0wVYtQ\u0026itemId=3669265045",
+                                "icon": "block_user",
+                                "confirmation": {
+                                    "title": "Точно хотите заблокировать?",
+                                    "description": "Этот пользователь больше не сможет вам написать.",
+                                    "ok": "Да, заблокировать",
+                                    "cancel": "Нет, вернуться в чат"
+                                }
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "deepLink": "ru.avito://1/abuse/report?itemId=3669265045\u0026src=messenger",
+                                "icon": "report_user"
+                            },
+                            {
+                                "title": "Отметить чат непрочитанным",
+                                "deepLink": "ru.avito://1/channel/markAsUnread?channelId=u2i-e5oB73~P6QrrPxku0wVYtQ",
+                                "icon": "mark_as_unread"
+                            },
+                            {
+                                "title": "Закрепить",
+                                "deepLink": "ru.avito://1/channel/pin?channelId=u2i-e5oB73~P6QrrPxku0wVYtQ",
+                                "icon": "pin"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "deepLink": "ru.avito://1/channel/delete?channelId=u2i-e5oB73~P6QrrPxku0wVYtQ",
+                                "icon": "delete",
+                                "confirmation": {
+                                    "title": "Точно хотите удалить чат?",
+                                    "description": "",
+                                    "ok": "Да, удалить",
+                                    "cancel": "Нет, оставить"
+                                }
+                            }
+                        ],
+                        "attachMenu": {
+                            "video": {
+                                "title": "Отправить видео",
+                                "maxSizeBytes": 157286400,
+                                "maxDurationSec": 300
+                            },
+                            "image": {
+                                "title": "Отправить фото"
+                            },
+                            "location": {
+                                "title": "Указать место встречи",
+                                "sharedLocation": {
+                                    "title": "Москва",
+                                    "lat": 55.839891,
+                                    "lon": 37.486796
+                                }
+                            },
+                            "item": {
+                                "title": "Прикрепить объявление",
+                                "itemId": 3669265045
+                            },
+                            "replies": {
+                                "title": "Быстрый ответ"
+                            }
+                        },
+                        "userId": "a3bfb8a571c12761081f566983211a7e"
+                    }
+                },
+                "info": {
+                    "name": "Irina",
+                    "avatar": {
+                        "100x100": "https://10.img.avito.st/image/1/1.v0l2fLa2BaAI3tmjBG6ma5DfE6rIFxBqwd8R.F2d_FcL120p22opo15EYYCO0SotdYksHQMQm_Zh0gHo",
+                        "1024x1024": "https://10.img.avito.st/image/1/1.v0l2fLauBaBAz5GyBG6ma5DfEQ.MlmN4mlc-HhCEwSirXz3ZHrd9bB4DY2kMZmGt-eZrrs",
+                        "128x128": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBA3ZGgBG6ma5DfE6rIXxMiwt8R.Xi2bTeRQ53psmKqyTDAy5MX8uG2kENAieTrqIdUStwU",
+                        "132x132": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBI3ZmgBG6ma5DfE6rIVxMqwt8R.N4l9Dx2am32DLDr-bk3L1-7bQEk0-bU5gkzL11JpZB4",
+                        "176x176": "https://10.img.avito.st/image/1/1.v0l2fLa2BaAg3fGgBG6ma5DfE6rIPxNCwt8R.YA0PPyXHvKfJLU1xKVbre_Vm9znaDCX-OQ7L1nYGbDs",
+                        "192x192": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBA3JGhBG6ma5DfE6rIXxIiw98R.a3jTkdi-cHx4zwaCUu1knQGz4AVeUB1OcvZh6Brj0WA",
+                        "256x256": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBA25GmBG6ma5DfE6rIXxUixN8R.Crt63E6SKuvdWMesTqdeeWQtZEeQNZ8OPp8g_muVjrE",
+                        "25x25": "https://10.img.avito.st/image/1/1.v0l2fLayBaDy7dUTdxZBosLXGZDy3xE.AeFadEkPpXMbRaHA9DQAs3YPqmmWYbqc6MczKcZZ34I",
+                        "50x50": "https://10.img.avito.st/image/1/1.v0l2fLayBaCku9UTdxZBosLXGcak3xE.5ZdC6BgkXQZPl5WAD1xqt-tmzuSFQ2K1CSbqgQkJm6c",
+                        "64x64": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBA3pGjBG6ma5DfE6rIXxAiwd8R.bBIYDbwmuOXoreOViIHWKIwFMLDS8Gat0CjcInE3Wfo",
+                        "96x96": "https://10.img.avito.st/image/1/1.v0l2fLa2BaAA3tGjBG6ma5DfE6rIHxBiwd8R.xCzFwAWqN7GKToG7Jqzohk6paEqk9wSRC3WashwVDTI"
+                    },
+                    "link": {
+                        "title": "Перейти в профиль",
+                        "uri": "ru.avito://1/user/profile?userKey=a3bfb8a571c12761081f566983211a7e\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjOzNDIzNTAxtS4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAVwSmDUwAAAA",
+                        "url": "/user/a3bfb8a571c12761081f566983211a7e/profile?id=3669265045\u0026iid=3669265045\u0026src=messenger\u0026page_from=from_item_messenger"
+                    },
+                    "userId": "a3bfb8a571c12761081f566983211a7e"
+                },
+                "users": [
+                    {
+                        "name": "Николай Колин",
+                        "lastActionTime": 1713537217,
+                        "timeDiff": 0,
+                        "statusId": 5,
+                        "id": "aae01879ec3f6ccdbbe75a93b468e142",
+                        "publicUserProfile": {
+                            "itemId": 3669265045,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=aae01879ec3f6ccdbbe75a93b468e142\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjOzNDIzNTAxtS4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAVwSmDUwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%9D/7_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%9D/7_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%9D/7_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%9D/7_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%9D/7_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%9D/7_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%9D/7_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%9D/7_96x96.png"
+                                }
+                            },
+                            "url": "/user/aae01879ec3f6ccdbbe75a93b468e142/profile?id=3669265045\u0026iid=3669265045\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    },
+                    {
+                        "name": "Irina",
+                        "lastActionTime": 1713525471,
+                        "timeDiff": 11746,
+                        "statusId": 5,
+                        "id": "a3bfb8a571c12761081f566983211a7e",
+                        "publicUserProfile": {
+                            "itemId": 3669265045,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=a3bfb8a571c12761081f566983211a7e\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjOzNDIzNTAxtS4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAVwSmDUwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBA25GmBG6ma5DfE6rIXxUixN8R.Crt63E6SKuvdWMesTqdeeWQtZEeQNZ8OPp8g_muVjrE",
+                                "images": {
+                                    "100x100": "https://10.img.avito.st/image/1/1.v0l2fLa2BaAI3tmjBG6ma5DfE6rIFxBqwd8R.F2d_FcL120p22opo15EYYCO0SotdYksHQMQm_Zh0gHo",
+                                    "1024x1024": "https://10.img.avito.st/image/1/1.v0l2fLauBaBAz5GyBG6ma5DfEQ.MlmN4mlc-HhCEwSirXz3ZHrd9bB4DY2kMZmGt-eZrrs",
+                                    "128x128": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBA3ZGgBG6ma5DfE6rIXxMiwt8R.Xi2bTeRQ53psmKqyTDAy5MX8uG2kENAieTrqIdUStwU",
+                                    "132x132": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBI3ZmgBG6ma5DfE6rIVxMqwt8R.N4l9Dx2am32DLDr-bk3L1-7bQEk0-bU5gkzL11JpZB4",
+                                    "176x176": "https://10.img.avito.st/image/1/1.v0l2fLa2BaAg3fGgBG6ma5DfE6rIPxNCwt8R.YA0PPyXHvKfJLU1xKVbre_Vm9znaDCX-OQ7L1nYGbDs",
+                                    "192x192": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBA3JGhBG6ma5DfE6rIXxIiw98R.a3jTkdi-cHx4zwaCUu1knQGz4AVeUB1OcvZh6Brj0WA",
+                                    "256x256": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBA25GmBG6ma5DfE6rIXxUixN8R.Crt63E6SKuvdWMesTqdeeWQtZEeQNZ8OPp8g_muVjrE",
+                                    "25x25": "https://10.img.avito.st/image/1/1.v0l2fLayBaDy7dUTdxZBosLXGZDy3xE.AeFadEkPpXMbRaHA9DQAs3YPqmmWYbqc6MczKcZZ34I",
+                                    "50x50": "https://10.img.avito.st/image/1/1.v0l2fLayBaCku9UTdxZBosLXGcak3xE.5ZdC6BgkXQZPl5WAD1xqt-tmzuSFQ2K1CSbqgQkJm6c",
+                                    "64x64": "https://10.img.avito.st/image/1/1.v0l2fLa2BaBA3pGjBG6ma5DfE6rIXxAiwd8R.bBIYDbwmuOXoreOViIHWKIwFMLDS8Gat0CjcInE3Wfo",
+                                    "96x96": "https://10.img.avito.st/image/1/1.v0l2fLa2BaAA3tGjBG6ma5DfE6rIHxBiwd8R.xCzFwAWqN7GKToG7Jqzohk6paEqk9wSRC3WashwVDTI"
+                                }
+                            },
+                            "url": "/user/a3bfb8a571c12761081f566983211a7e/profile?id=3669265045\u0026iid=3669265045\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    }
+                ],
+                "authorId": "36ad86823617806f4e071c16f3f54ce8",
+                "lastMessage": {
+                    "id": "af57bbdb745749b13262fe2b32679af0",
+                    "body": {
+                        "randomId": "11689E19-BCE8-41F9-850D-04382220AFEA",
+                        "text": "Добрый день ,да"
+                    },
+                    "channelId": "u2i-e5oB73~P6QrrPxku0wVYtQ",
+                    "type": "text",
+                    "created": 17126452365183336,
+                    "isDeleted": false,
+                    "isRead": true,
+                    "isSpam": false,
+                    "delivered": 17126452365183336,
+                    "read": 17133039249187096,
+                    "uid": "aae01879ec3f6ccdbbe75a93b468e142",
+                    "fromUid": "a3bfb8a571c12761081f566983211a7e"
+                }
+            },
+            {
+                "channelId": "u2i-s68_wlooT4RRCq2mEAjYoA",
+                "type": "u2i",
+                "created": 17122271669590000,
+                "updated": 17122933207694031,
+                "readOnly": false,
+                "contextActions": {
+                    "version": 10,
+                    "platformSupport": {
+                        "platforms": [
+                            "ios",
+                            "android",
+                            "web",
+                            "mav"
+                        ],
+                        "fallback": {
+                            "text": "Сообщение не поддерживается на этой платформе"
+                        }
+                    },
+                    "value": {
+                        "title": "",
+                        "actions": [
+                            {
+                                "type": "primary",
+                                "text": "Купить с доставкой",
+                                "handler": {
+                                    "type": "link",
+                                    "value": {
+                                        "deepLink": "ru.avito://1/webview?mavAuth=true\u0026url=https%3A%2F%2Fwww.avito.ru%2Fweb%2F1%2Fflower%2FflowButtonClick%3FflowId%3D63690%26flowRunId%3D512669425%26redirectUrl%3Dru.avito%253A%252F%252F1%252FdeepLinks%252Ffallbackable%252Fopen%253Ffallbacks%253D%25255B%252522ru.avito%25253A%25252F%25252F1%25252FdeepLinks%25252Fconditional%25252FappVersion%25253Fandroid%25253D131.5%25255Cu0026equal%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252FsavedAddress%2525252Fcheck%2525253FitemId%2525253D3840267163%25252522%2525255D%25255Cu0026greater%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252FsavedAddress%2525252Fcheck%2525253FitemId%2525253D3840267163%25252522%2525255D%25255Cu0026ios%25253D130.1%25255Cu0026less%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252Forder%2525252Fcreate%2525253FitemId%2525253D3840267163%2525255Cu0026source%2525253Dbuyer_invitation%25252522%2525255D%252522%25252C%252522ru.avito%25253A%25252F%25252F1%25252Fdelivery%25252Forder%25252Fcreate%25253FitemId%25253D3840267163%25255Cu0026source%25253Dbuyer_invitation%252522%25255D%26sendReaction%3Dtrue%26transitionId%3D9657504%26versionId%3D474927",
+                                        "url": "https://www.avito.ru/web/1/flower/flowButtonClick?flowId=63690\u0026flowRunId=512669425\u0026redirectUrl=https%3A%2F%2Fwww.avito.ru%2Fmoskva%2Fknigi_i_zhurnaly%2Fkniga_atomnye_privychki_3840267163%3Fsrcp%3Dbuyer_invitation%26delivery\u0026sendReaction=true\u0026transitionId=9657504\u0026versionId=474927"
+                                    }
+                                },
+                                "confirmation": null,
+                                "analytics": "9657504"
+                            }
+                        ]
+                    },
+                    "type": "actions"
+                },
+                "isRead": false,
+                "isAnswered": true,
+                "tags": [],
+                "inputState": {
+                    "reason": "FlowEnd",
+                    "isDisabled": false
+                },
+                "context": {
+                    "type": "item",
+                    "value": {
+                        "id": 3840267163,
+                        "title": "Книга атомные привычки",
+                        "isAllowMessages": true,
+                        "categoryId": 83,
+                        "rootCategoryId": 100000,
+                        "datetime": 1712202943,
+                        "location": "Москва",
+                        "images": {
+                            "main": {
+                                "140x105": "https://10.img.avito.st/image/1/1.p1gLALaxC7EloduySS6OYXuiCbG5tQ-z.TujSDqKh_-4Ws70zqJnLXOzXv7El5ZilbBPHRDI7Xk0",
+                                "catalog": "https://10.img.avito.st/image/1/1.p1gLALa9C7F9pfm3SS6OYXuiCbW1q8m1TacJs7mtA7O5tQ-z.XCavJ5ivpaiIfC8wq4mHAXWzczQLeeMtunr8HiTgGpI",
+                                "catalog_vip": "https://10.img.avito.st/image/1/1.p1gLALa9C7F9rpm5SS6OYXuiCbW1q8m-LakJs7mtA7O5tQ-z.ClQzU2w3jf60qy-SgAHHlYibbjCKvnJytQl0GqLpfvQ"
+                            },
+                            "count": 1
+                        },
+                        "statusId": 18,
+                        "priceString": "400 ₽",
+                        "price": 400,
+                        "hidePhone": true,
+                        "sharedLocation": {
+                            "title": "Москва",
+                            "lat": 55.778031,
+                            "lon": 37.514455
+                        },
+                        "isVisibleInSearch": false,
+                        "urlPath": "/moskva/knigi_i_zhurnaly/kniga_atomnye_privychki_3840267163",
+                        "actions": [
+                            {
+                                "title": "Заблокировать",
+                                "uri": "ru.avito://1/channel/block?userId=a0c556ca15a4e47590eeecc0a22bfd8f\u0026itemId=3840267163"
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "uri": "ru.avito://1/abuse/report?itemId=3840267163\u0026src=messenger"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "uri": "ru.avito://1/channel/delete?channelId=u2i-s68_wlooT4RRCq2mEAjYoA"
+                            }
+                        ],
+                        "menu": [
+                            {
+                                "title": "Оставить отзыв",
+                                "deepLink": "ru.avito://1/rating/form?fid=789c2adfe7559bca10a23ce3cccada8e5f93765d32dc14f732377e1e37af466b4feeea93e95f58f21aa62effda3ef1d984c4cc19bf01010000ffff4a3e1932",
+                                "icon": "review"
+                            },
+                            {
+                                "title": "Заблокировать",
+                                "deepLink": "ru.avito://1/channel/block?userId=a0c556ca15a4e47590eeecc0a22bfd8f\u0026channelId=u2i-s68_wlooT4RRCq2mEAjYoA\u0026itemId=3840267163",
+                                "icon": "block_user",
+                                "confirmation": {
+                                    "title": "Точно хотите заблокировать?",
+                                    "description": "Этот пользователь больше не сможет вам написать.",
+                                    "ok": "Да, заблокировать",
+                                    "cancel": "Нет, вернуться в чат"
+                                }
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "deepLink": "ru.avito://1/abuse/report?itemId=3840267163\u0026src=messenger",
+                                "icon": "report_user"
+                            },
+                            {
+                                "title": "Отметить чат непрочитанным",
+                                "deepLink": "ru.avito://1/channel/markAsUnread?channelId=u2i-s68_wlooT4RRCq2mEAjYoA",
+                                "icon": "mark_as_unread"
+                            },
+                            {
+                                "title": "Закрепить",
+                                "deepLink": "ru.avito://1/channel/pin?channelId=u2i-s68_wlooT4RRCq2mEAjYoA",
+                                "icon": "pin"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "deepLink": "ru.avito://1/channel/delete?channelId=u2i-s68_wlooT4RRCq2mEAjYoA",
+                                "icon": "delete",
+                                "confirmation": {
+                                    "title": "Точно хотите удалить чат?",
+                                    "description": "",
+                                    "ok": "Да, удалить",
+                                    "cancel": "Нет, оставить"
+                                }
+                            }
+                        ],
+                        "attachMenu": {
+                            "video": {
+                                "title": "Отправить видео",
+                                "maxSizeBytes": 157286400,
+                                "maxDurationSec": 300
+                            },
+                            "image": {
+                                "title": "Отправить фото"
+                            },
+                            "location": {
+                                "title": "Указать место встречи",
+                                "sharedLocation": {
+                                    "title": "Москва",
+                                    "lat": 55.778031,
+                                    "lon": 37.514455
+                                }
+                            },
+                            "item": {
+                                "title": "Прикрепить объявление",
+                                "itemId": 3840267163
+                            },
+                            "replies": {
+                                "title": "Быстрый ответ"
+                            }
+                        },
+                        "userId": "a0c556ca15a4e47590eeecc0a22bfd8f"
+                    }
+                },
+                "info": {
+                    "name": "Tati",
+                    "avatar": {
+                        "100x100": "https://70.img.avito.st/image/1/1.wy94Sba1ecYG66XFcgaVflzrbcbG4qXFButtxA.qX1KJmiTOh54Pw35JVNnuW2x1c-n0L1KhyuhXk47uWI",
+                        "1024x1024": "https://70.img.avito.st/image/1/1.wy94SbatecZO-u3UcgaVflzrbcQ.rWMV65WJ2XqyR5x56OKJcVn_NVITmYF4uZy0M2bBo8A",
+                        "128x128": "https://70.img.avito.st/image/1/1.wy94Sba1ecZO6O3GcgaVflzrbcbG4u3GTuhtxA.ifcL_wdOOUsI1CqTCgTeYTdmkoX4VMHGaGBfUAqWNmo",
+                        "132x132": "https://70.img.avito.st/image/1/1.wy94Sba1ecZG6OXGcgaVflzrbcbG4uXGRuhtxA.Cj_xUGy86h5BzEo4Djpz_LLUcYetz7epbNO8Ej9wg6Y",
+                        "176x176": "https://70.img.avito.st/image/1/1.wy94Sba1ecYu6I3GcgaVflzrbcbG4o3GLuhtxA.h9WURFQYCectMbCAWIwwzQRfbIM4v-OIT-CxM-PD1uE",
+                        "192x192": "https://70.img.avito.st/image/1/1.wy94Sba1ecZO6e3HcgaVflzrbcbG4u3HTultxA.8NK7S9OxsBdhGi1mbR8-qQ7iP2OX0gtRGklPRWkLu8c",
+                        "256x256": "https://70.img.avito.st/image/1/1.wy94Sba1ecZO7u3AcgaVflzrbcbG4u3ATu5txA.G4-A7ibC72iHXetKTmneHeTnEqIPMNZmnqQwQFn_8rI",
+                        "25x25": "https://70.img.avito.st/image/1/1.wy94Sbaxecb82NEoNlD_xc7oZcz82G3E.7mcX-yQq1tWtU2MtRNUqBhOEpVlrSXlYwQXCud2c30o",
+                        "50x50": "https://70.img.avito.st/image/1/1.wy94SbaxecaqjtEoNlD_xc7oZcyqjm3E.4gqBhcPe9IdvKD5pqJB138EUpaAc4O3seE-dL5zPooE",
+                        "64x64": "https://70.img.avito.st/image/1/1.wy94Sba1ecZO6-3FcgaVflzrbcbG4u3FTuttxA.2FpTAZX3T9lM2AOxTmfUAVBtM3tYDLp30xGxy70oKkU",
+                        "96x96": "https://70.img.avito.st/image/1/1.wy94Sba1ecYO663FcgaVflzrbcbG4q3FDuttxA.GXe9fe1rd88BuiDMCD7Vp6FR8JawLyCRubUrOlKgoF8"
+                    },
+                    "link": {
+                        "title": "Перейти в профиль",
+                        "uri": "ru.avito://1/user/profile?userKey=a0c556ca15a4e47590eeecc0a22bfd8f\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQytjAxMDIzNzQzti4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAJCqcTkwAAAA",
+                        "url": "/user/a0c556ca15a4e47590eeecc0a22bfd8f/profile?id=3840267163\u0026iid=3840267163\u0026src=messenger\u0026page_from=from_item_messenger"
+                    },
+                    "userId": "a0c556ca15a4e47590eeecc0a22bfd8f"
+                },
+                "users": [
+                    {
+                        "name": "Николай Колин",
+                        "lastActionTime": 1713537217,
+                        "timeDiff": 0,
+                        "statusId": 5,
+                        "id": "aae01879ec3f6ccdbbe75a93b468e142",
+                        "publicUserProfile": {
+                            "itemId": 3840267163,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=aae01879ec3f6ccdbbe75a93b468e142\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQytjAxMDIzNzQzti4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAJCqcTkwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%9D/7_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%9D/7_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%9D/7_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%9D/7_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%9D/7_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%9D/7_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%9D/7_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%9D/7_96x96.png"
+                                }
+                            },
+                            "url": "/user/aae01879ec3f6ccdbbe75a93b468e142/profile?id=3840267163\u0026iid=3840267163\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    },
+                    {
+                        "name": "Tati",
+                        "lastActionTime": 1713536497,
+                        "timeDiff": 720,
+                        "statusId": 5,
+                        "id": "a0c556ca15a4e47590eeecc0a22bfd8f",
+                        "publicUserProfile": {
+                            "itemId": 3840267163,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=a0c556ca15a4e47590eeecc0a22bfd8f\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQytjAxMDIzNzQzti4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAJCqcTkwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://70.img.avito.st/image/1/1.wy94Sba1ecZO7u3AcgaVflzrbcbG4u3ATu5txA.G4-A7ibC72iHXetKTmneHeTnEqIPMNZmnqQwQFn_8rI",
+                                "images": {
+                                    "100x100": "https://70.img.avito.st/image/1/1.wy94Sba1ecYG66XFcgaVflzrbcbG4qXFButtxA.qX1KJmiTOh54Pw35JVNnuW2x1c-n0L1KhyuhXk47uWI",
+                                    "1024x1024": "https://70.img.avito.st/image/1/1.wy94SbatecZO-u3UcgaVflzrbcQ.rWMV65WJ2XqyR5x56OKJcVn_NVITmYF4uZy0M2bBo8A",
+                                    "128x128": "https://70.img.avito.st/image/1/1.wy94Sba1ecZO6O3GcgaVflzrbcbG4u3GTuhtxA.ifcL_wdOOUsI1CqTCgTeYTdmkoX4VMHGaGBfUAqWNmo",
+                                    "132x132": "https://70.img.avito.st/image/1/1.wy94Sba1ecZG6OXGcgaVflzrbcbG4uXGRuhtxA.Cj_xUGy86h5BzEo4Djpz_LLUcYetz7epbNO8Ej9wg6Y",
+                                    "176x176": "https://70.img.avito.st/image/1/1.wy94Sba1ecYu6I3GcgaVflzrbcbG4o3GLuhtxA.h9WURFQYCectMbCAWIwwzQRfbIM4v-OIT-CxM-PD1uE",
+                                    "192x192": "https://70.img.avito.st/image/1/1.wy94Sba1ecZO6e3HcgaVflzrbcbG4u3HTultxA.8NK7S9OxsBdhGi1mbR8-qQ7iP2OX0gtRGklPRWkLu8c",
+                                    "256x256": "https://70.img.avito.st/image/1/1.wy94Sba1ecZO7u3AcgaVflzrbcbG4u3ATu5txA.G4-A7ibC72iHXetKTmneHeTnEqIPMNZmnqQwQFn_8rI",
+                                    "25x25": "https://70.img.avito.st/image/1/1.wy94Sbaxecb82NEoNlD_xc7oZcz82G3E.7mcX-yQq1tWtU2MtRNUqBhOEpVlrSXlYwQXCud2c30o",
+                                    "50x50": "https://70.img.avito.st/image/1/1.wy94SbaxecaqjtEoNlD_xc7oZcyqjm3E.4gqBhcPe9IdvKD5pqJB138EUpaAc4O3seE-dL5zPooE",
+                                    "64x64": "https://70.img.avito.st/image/1/1.wy94Sba1ecZO6-3FcgaVflzrbcbG4u3FTuttxA.2FpTAZX3T9lM2AOxTmfUAVBtM3tYDLp30xGxy70oKkU",
+                                    "96x96": "https://70.img.avito.st/image/1/1.wy94Sba1ecYO663FcgaVflzrbcbG4q3FDuttxA.GXe9fe1rd88BuiDMCD7Vp6FR8JawLyCRubUrOlKgoF8"
+                                }
+                            },
+                            "url": "/user/a0c556ca15a4e47590eeecc0a22bfd8f/profile?id=3840267163\u0026iid=3840267163\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    }
+                ],
+                "authorId": "36ad86823617806f4e071c16f3f54ce8",
+                "lastMessage": {
+                    "id": "b3067a356e495773dc97236d4af246e1",
+                    "body": {
+                        "randomId": "AB290286-2BF4-465B-A736-4625D1A20D2B",
+                        "text": "Здравствуйте. Продаю"
+                    },
+                    "channelId": "u2i-s68_wlooT4RRCq2mEAjYoA",
+                    "type": "text",
+                    "created": 17122933207694031,
+                    "isDeleted": false,
+                    "isRead": false,
+                    "isSpam": false,
+                    "delivered": 17122933207694031,
+                    "uid": "aae01879ec3f6ccdbbe75a93b468e142",
+                    "fromUid": "a0c556ca15a4e47590eeecc0a22bfd8f"
+                }
+            },
+            {
+                "channelId": "u2i-1DqVKPR2omOowKa0910bgw",
+                "type": "u2i",
+                "created": 17122305267220000,
+                "updated": 17122378914959758,
+                "readOnly": false,
+                "contextActions": {
+                    "version": 8,
+                    "platformSupport": {
+                        "platforms": [
+                            "ios",
+                            "android",
+                            "web",
+                            "mav"
+                        ],
+                        "fallback": {
+                            "text": "Посмотрите похожие предложения — среди них может найтись подходящее."
+                        }
+                    },
+                    "messageId": "8d52f73339ed5c3465b0cf782edf169d",
+                    "value": {
+                        "title": "Похожие объявления",
+                        "expandable": {
+                            "titleShort": "Похожие объявления",
+                            "cancelAction": {
+                                "method": "messenger.recommendationsRemove.v1",
+                                "params": {
+                                    "__channelId": "u2i-1DqVKPR2omOowKa0910bgw",
+                                    "channelId": "u2i-1DqVKPR2omOowKa0910bgw"
+                                }
+                            }
+                        },
+                        "itemsRequest": {
+                            "method": "messenger.getRecommendations.v2",
+                            "params": {
+                                "channelId": "u2i-1DqVKPR2omOowKa0910bgw",
+                                "itemId": 2641389713
+                            }
+                        }
+                    },
+                    "type": "itemsList"
+                },
+                "isRead": false,
+                "isAnswered": true,
+                "tags": [],
+                "flow": "deal_confirmation_messenger",
+                "inputState": {
+                    "reason": "flower_63690",
+                    "isDisabled": false
+                },
+                "context": {
+                    "type": "item",
+                    "value": {
+                        "id": 2641389713,
+                        "title": "Книги",
+                        "isAllowMessages": true,
+                        "categoryId": 83,
+                        "rootCategoryId": 100000,
+                        "datetime": 1710219620,
+                        "location": "Иркутск",
+                        "images": {
+                            "main": {
+                                "140x105": "https://90.img.avito.st/image/1/1.y77NCrayZ1fjq7dU1ynysA6pZ1Ftr2U.lafFlOhNhrafQ2jhIqoe5GMampaiPhv3q93RLXO8LuA",
+                                "catalog": "https://90.img.avito.st/image/1/1.y77NCra-Z1e7r5VR1ynysA6pY11zaWOlf6llUXWjZVFtr2U.Okxhq-hHKOoK_KAFO91d5TieII55jHACdZfZE0vV6is",
+                                "catalog_vip": "https://90.img.avito.st/image/1/1.y77NCra-Z1e7pPVf1ynysA6pY11zaWjFcallUXWjZVFtr2U.HSBWfyMxqyNPgzovg9CaD-mxkDliZrvsZY7xPmTf-I4"
+                            },
+                            "count": 1
+                        },
+                        "statusId": 10,
+                        "priceString": "500 ₽",
+                        "price": 500,
+                        "hidePhone": true,
+                        "sharedLocation": {
+                            "title": "Иркутск",
+                            "lat": 52.27868972517484,
+                            "lon": 104.30242655433588
+                        },
+                        "isVisibleInSearch": false,
+                        "urlPath": "/irkutsk/knigi_i_zhurnaly/knigi_2641389713",
+                        "actions": [
+                            {
+                                "title": "Заблокировать",
+                                "uri": "ru.avito://1/channel/block?userId=a5c1cb2b66627b39b6019e00ce333a0d\u0026itemId=2641389713"
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "uri": "ru.avito://1/abuse/report?itemId=2641389713\u0026src=messenger"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "uri": "ru.avito://1/channel/delete?channelId=u2i-1DqVKPR2omOowKa0910bgw"
+                            }
+                        ],
+                        "menu": [
+                            {
+                                "title": "Оставить отзыв",
+                                "deepLink": "ru.avito://1/rating/form?fid=789c8a9fb391f7734aa45d117f59cc83c53e063af53f853d8d7c4edbce0e740e319e6669b52de0d881de7575d73ebe7957f2cce724200000ffff070f1794",
+                                "icon": "review"
+                            },
+                            {
+                                "title": "Заблокировать",
+                                "deepLink": "ru.avito://1/channel/block?userId=a5c1cb2b66627b39b6019e00ce333a0d\u0026channelId=u2i-1DqVKPR2omOowKa0910bgw\u0026itemId=2641389713",
+                                "icon": "block_user",
+                                "confirmation": {
+                                    "title": "Точно хотите заблокировать?",
+                                    "description": "Этот пользователь больше не сможет вам написать.",
+                                    "ok": "Да, заблокировать",
+                                    "cancel": "Нет, вернуться в чат"
+                                }
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "deepLink": "ru.avito://1/abuse/report?itemId=2641389713\u0026src=messenger",
+                                "icon": "report_user"
+                            },
+                            {
+                                "title": "Отметить чат непрочитанным",
+                                "deepLink": "ru.avito://1/channel/markAsUnread?channelId=u2i-1DqVKPR2omOowKa0910bgw",
+                                "icon": "mark_as_unread"
+                            },
+                            {
+                                "title": "Закрепить",
+                                "deepLink": "ru.avito://1/channel/pin?channelId=u2i-1DqVKPR2omOowKa0910bgw",
+                                "icon": "pin"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "deepLink": "ru.avito://1/channel/delete?channelId=u2i-1DqVKPR2omOowKa0910bgw",
+                                "icon": "delete",
+                                "confirmation": {
+                                    "title": "Точно хотите удалить чат?",
+                                    "description": "",
+                                    "ok": "Да, удалить",
+                                    "cancel": "Нет, оставить"
+                                }
+                            }
+                        ],
+                        "attachMenu": {
+                            "video": {
+                                "title": "Отправить видео",
+                                "maxSizeBytes": 157286400,
+                                "maxDurationSec": 300
+                            },
+                            "image": {
+                                "title": "Отправить фото"
+                            },
+                            "location": {
+                                "title": "Указать место встречи",
+                                "sharedLocation": {
+                                    "title": "Иркутск",
+                                    "lat": 52.27868972517484,
+                                    "lon": 104.30242655433588
+                                }
+                            },
+                            "item": {
+                                "title": "Прикрепить объявление",
+                                "itemId": 2641389713
+                            },
+                            "replies": {
+                                "title": "Быстрый ответ"
+                            }
+                        },
+                        "userId": "a5c1cb2b66627b39b6019e00ce333a0d"
+                    }
+                },
+                "info": {
+                    "name": "Алена",
+                    "avatar": {
+                        "128x128": "https://static.avito.ru/stub_avatars/%D0%90/5_128x128.png",
+                        "192x192": "https://static.avito.ru/stub_avatars/%D0%90/5_192x192.png",
+                        "24x24": "https://static.avito.ru/stub_avatars/%D0%90/5_24x24.png",
+                        "256x256": "https://static.avito.ru/stub_avatars/%D0%90/5_256x256.png",
+                        "36x36": "https://static.avito.ru/stub_avatars/%D0%90/5_36x36.png",
+                        "48x48": "https://static.avito.ru/stub_avatars/%D0%90/5_48x48.png",
+                        "64x64": "https://static.avito.ru/stub_avatars/%D0%90/5_64x64.png",
+                        "72x72": "https://static.avito.ru/stub_avatars/%D0%90/5_72x72.png",
+                        "96x96": "https://static.avito.ru/stub_avatars/%D0%90/5_96x96.png"
+                    },
+                    "link": {
+                        "title": "Перейти в профиль",
+                        "uri": "ru.avito://1/user/profile?userKey=a5c1cb2b66627b39b6019e00ce333a0d\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyMjMxNLawNDc0ti4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loA9SGrr0wAAAA",
+                        "url": "/user/a5c1cb2b66627b39b6019e00ce333a0d/profile?id=2641389713\u0026iid=2641389713\u0026src=messenger\u0026page_from=from_item_messenger"
+                    },
+                    "userId": "a5c1cb2b66627b39b6019e00ce333a0d"
+                },
+                "users": [
+                    {
+                        "name": "Николай Колин",
+                        "lastActionTime": 1713537217,
+                        "timeDiff": 0,
+                        "statusId": 5,
+                        "id": "aae01879ec3f6ccdbbe75a93b468e142",
+                        "publicUserProfile": {
+                            "itemId": 2641389713,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=aae01879ec3f6ccdbbe75a93b468e142\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyMjMxNLawNDc0ti4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loA9SGrr0wAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%9D/7_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%9D/7_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%9D/7_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%9D/7_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%9D/7_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%9D/7_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%9D/7_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%9D/7_96x96.png"
+                                }
+                            },
+                            "url": "/user/aae01879ec3f6ccdbbe75a93b468e142/profile?id=2641389713\u0026iid=2641389713\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    },
+                    {
+                        "name": "Алена",
+                        "lastActionTime": 1713512751,
+                        "timeDiff": 24466,
+                        "statusId": 5,
+                        "id": "a5c1cb2b66627b39b6019e00ce333a0d",
+                        "publicUserProfile": {
+                            "itemId": 2641389713,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=a5c1cb2b66627b39b6019e00ce333a0d\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyMjMxNLawNDc0ti4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loA9SGrr0wAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%90/5_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%90/5_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%90/5_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%90/5_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%90/5_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%90/5_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%90/5_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%90/5_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%90/5_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%90/5_96x96.png"
+                                }
+                            },
+                            "url": "/user/a5c1cb2b66627b39b6019e00ce333a0d/profile?id=2641389713\u0026iid=2641389713\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    }
+                ],
+                "authorId": "36ad86823617806f4e071c16f3f54ce8",
+                "lastMessage": {
+                    "id": "8d52f73339ed5c3465b0cf782edf169d",
+                    "body": {
+                        "chunks": [
+                            {
+                                "type": "text",
+                                "value": {
+                                    "text": "Посмотрите похожие предложения — среди них может найтись подходящее."
+                                }
+                            }
+                        ],
+                        "flow": "messenger_item_close",
+                        "flowType": 1,
+                        "randomId": "e7733e75be9ac6aae3d7a8fd245019e3",
+                        "text": "Сообщение не поддерживается. Пожалуйста, обновите приложение"
+                    },
+                    "platformSupport": {
+                        "platforms": [
+                            "ios",
+                            "android",
+                            "web",
+                            "mav"
+                        ],
+                        "fallback": {
+                            "text": "Посмотрите похожие предложения — среди них может найтись подходящее."
+                        }
+                    },
+                    "preview": {
+                        "text": "Посмотрите похожие предложения — среди них может найтись подходящее."
+                    },
+                    "channelId": "u2i-1DqVKPR2omOowKa0910bgw",
+                    "type": "system",
+                    "subtype": "platform",
+                    "created": 17122378914959758,
+                    "isDeleted": false,
+                    "isRead": true,
+                    "isSpam": false,
+                    "delivered": 17122378914959758,
+                    "read": 17122378919937376,
+                    "uid": "aae01879ec3f6ccdbbe75a93b468e142",
+                    "fromUid": "36ad86823617806f4e071c16f3f54ce8"
+                }
+            },
+            {
+                "channelId": "u2i-wdqa~hv7K4PXj03cdQr4AQ",
+                "type": "u2i",
+                "created": 17122311890090000,
+                "updated": 17122312735151963,
+                "readOnly": false,
+                "isRead": false,
+                "isAnswered": true,
+                "tags": [],
+                "inputState": {
+                    "isDisabled": false
+                },
+                "context": {
+                    "type": "item",
+                    "value": {
+                        "id": 2434504607,
+                        "title": "Книги",
+                        "isAllowMessages": true,
+                        "categoryId": 83,
+                        "rootCategoryId": 100000,
+                        "datetime": 1713312122,
+                        "location": "Москва",
+                        "images": {
+                            "main": {
+                                "140x105": "https://90.img.avito.st/image/1/1.t1hVLbaxG7F7jMuyN2feY1SPGbHnmB-z.kBhlYSFK86XOAzdAPVB_ZCwS5zy8aqjqhAp07yOaACM",
+                                "catalog": "https://90.img.avito.st/image/1/1.t1hVLba9G7EjiOm3N2feY1SPGbXrhtm1E4oZs-eAE7PnmB-z.2WyB_1Bpm-73hF52-8nggnh7k_zZPcp5gD-qofe6M6o",
+                                "catalog_vip": "https://90.img.avito.st/image/1/1.t1hVLba9G7Ejg4m5N2feY1SPGbXrhtm-c4QZs-eAE7PnmB-z.GgRexWO5_SPwcQC-rOeaBiU5nC4Y-RQTGQI-EduTF5w"
+                            },
+                            "count": 1
+                        },
+                        "statusId": 4,
+                        "priceString": "1 ₽",
+                        "price": 1,
+                        "isActive": true,
+                        "hidePhone": true,
+                        "sharedLocation": {
+                            "title": "Москва",
+                            "lat": 55.860085,
+                            "lon": 37.589653
+                        },
+                        "isVisibleInSearch": true,
+                        "urlPath": "/moskva/knigi_i_zhurnaly/knigi_2434504607",
+                        "actions": [
+                            {
+                                "title": "Заблокировать",
+                                "uri": "ru.avito://1/channel/block?userId=ed774d2f5e1638cdb733ad9a9f58f601\u0026itemId=2434504607"
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "uri": "ru.avito://1/abuse/report?itemId=2434504607\u0026src=messenger"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "uri": "ru.avito://1/channel/delete?channelId=u2i-wdqa~hv7K4PXj03cdQr4AQ"
+                            }
+                        ],
+                        "menu": [
+                            {
+                                "title": "Оставить отзыв",
+                                "deepLink": "ru.avito://1/rating/form?fid=789c5a1f327395c61bf3c0753dcb342b4c9f310457bc62992427e2e7ba5189ed2aebe5b90a9fbbe3aa7a32d21fc5c79e58fd845f0f100000ffff0f3715b5",
+                                "icon": "review"
+                            },
+                            {
+                                "title": "Заблокировать",
+                                "deepLink": "ru.avito://1/channel/block?userId=ed774d2f5e1638cdb733ad9a9f58f601\u0026channelId=u2i-wdqa~hv7K4PXj03cdQr4AQ\u0026itemId=2434504607",
+                                "icon": "block_user",
+                                "confirmation": {
+                                    "title": "Точно хотите заблокировать?",
+                                    "description": "Этот пользователь больше не сможет вам написать.",
+                                    "ok": "Да, заблокировать",
+                                    "cancel": "Нет, вернуться в чат"
+                                }
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "deepLink": "ru.avito://1/abuse/report?itemId=2434504607\u0026src=messenger",
+                                "icon": "report_user"
+                            },
+                            {
+                                "title": "Отметить чат непрочитанным",
+                                "deepLink": "ru.avito://1/channel/markAsUnread?channelId=u2i-wdqa~hv7K4PXj03cdQr4AQ",
+                                "icon": "mark_as_unread"
+                            },
+                            {
+                                "title": "Закрепить",
+                                "deepLink": "ru.avito://1/channel/pin?channelId=u2i-wdqa~hv7K4PXj03cdQr4AQ",
+                                "icon": "pin"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "deepLink": "ru.avito://1/channel/delete?channelId=u2i-wdqa~hv7K4PXj03cdQr4AQ",
+                                "icon": "delete",
+                                "confirmation": {
+                                    "title": "Точно хотите удалить чат?",
+                                    "description": "",
+                                    "ok": "Да, удалить",
+                                    "cancel": "Нет, оставить"
+                                }
+                            }
+                        ],
+                        "attachMenu": {
+                            "video": {
+                                "title": "Отправить видео",
+                                "maxSizeBytes": 157286400,
+                                "maxDurationSec": 300
+                            },
+                            "image": {
+                                "title": "Отправить фото"
+                            },
+                            "location": {
+                                "title": "Указать место встречи",
+                                "sharedLocation": {
+                                    "title": "Москва",
+                                    "lat": 55.860085,
+                                    "lon": 37.589653
+                                }
+                            },
+                            "item": {
+                                "title": "Прикрепить объявление",
+                                "itemId": 2434504607
+                            },
+                            "replies": {
+                                "title": "Быстрый ответ"
+                            }
+                        },
+                        "userId": "ed774d2f5e1638cdb733ad9a9f58f601"
+                    }
+                },
+                "info": {
+                    "name": "АА",
+                    "avatar": {
+                        "128x128": "https://static.avito.ru/stub_avatars/%D0%90/2_128x128.png",
+                        "192x192": "https://static.avito.ru/stub_avatars/%D0%90/2_192x192.png",
+                        "24x24": "https://static.avito.ru/stub_avatars/%D0%90/2_24x24.png",
+                        "256x256": "https://static.avito.ru/stub_avatars/%D0%90/2_256x256.png",
+                        "36x36": "https://static.avito.ru/stub_avatars/%D0%90/2_36x36.png",
+                        "48x48": "https://static.avito.ru/stub_avatars/%D0%90/2_48x48.png",
+                        "64x64": "https://static.avito.ru/stub_avatars/%D0%90/2_64x64.png",
+                        "72x72": "https://static.avito.ru/stub_avatars/%D0%90/2_72x72.png",
+                        "96x96": "https://static.avito.ru/stub_avatars/%D0%90/2_96x96.png"
+                    },
+                    "link": {
+                        "title": "Перейти в профиль",
+                        "uri": "ru.avito://1/user/profile?userKey=ed774d2f5e1638cdb733ad9a9f58f601\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyMjE2MTUwMTMwty4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loA9Pb7FkwAAAA",
+                        "url": "/user/ed774d2f5e1638cdb733ad9a9f58f601/profile?id=2434504607\u0026iid=2434504607\u0026src=messenger\u0026page_from=from_item_messenger"
+                    },
+                    "userId": "ed774d2f5e1638cdb733ad9a9f58f601"
+                },
+                "users": [
+                    {
+                        "name": "Николай Колин",
+                        "lastActionTime": 1713537217,
+                        "timeDiff": 0,
+                        "statusId": 5,
+                        "id": "aae01879ec3f6ccdbbe75a93b468e142",
+                        "publicUserProfile": {
+                            "itemId": 2434504607,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=aae01879ec3f6ccdbbe75a93b468e142\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyMjE2MTUwMTMwty4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loA9Pb7FkwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%9D/7_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%9D/7_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%9D/7_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%9D/7_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%9D/7_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%9D/7_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%9D/7_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%9D/7_96x96.png"
+                                }
+                            },
+                            "url": "/user/aae01879ec3f6ccdbbe75a93b468e142/profile?id=2434504607\u0026iid=2434504607\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    },
+                    {
+                        "name": "АА",
+                        "lastActionTime": 1713526265,
+                        "timeDiff": 10952,
+                        "statusId": 5,
+                        "id": "ed774d2f5e1638cdb733ad9a9f58f601",
+                        "publicUserProfile": {
+                            "itemId": 2434504607,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=ed774d2f5e1638cdb733ad9a9f58f601\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyMjE2MTUwMTMwty4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loA9Pb7FkwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%90/2_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%90/2_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%90/2_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%90/2_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%90/2_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%90/2_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%90/2_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%90/2_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%90/2_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%90/2_96x96.png"
+                                }
+                            },
+                            "url": "/user/ed774d2f5e1638cdb733ad9a9f58f601/profile?id=2434504607\u0026iid=2434504607\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    }
+                ],
+                "authorId": "36ad86823617806f4e071c16f3f54ce8",
+                "lastMessage": {
+                    "id": "23851e44f05d10fdc42fd0890a386ad6",
+                    "body": {
+                        "randomId": "4F7A9E59-D348-4B41-B5CF-A5BF97389C28",
+                        "text": "Добрый день! нет)"
+                    },
+                    "channelId": "u2i-wdqa~hv7K4PXj03cdQr4AQ",
+                    "type": "text",
+                    "created": 17122312735151963,
+                    "isDeleted": false,
+                    "isRead": false,
+                    "isSpam": false,
+                    "delivered": 17122312735151963,
+                    "uid": "aae01879ec3f6ccdbbe75a93b468e142",
+                    "fromUid": "ed774d2f5e1638cdb733ad9a9f58f601"
+                }
+            },
+            {
+                "channelId": "u2i-RXTWrAIHRt9Li1V2WZjlzw",
+                "type": "u2i",
+                "created": 17122269435730000,
+                "updated": 17122312138216870,
+                "readOnly": false,
+                "contextActions": {
+                    "version": 9
+                },
+                "isRead": true,
+                "isAnswered": true,
+                "tags": [],
+                "inputState": {
+                    "reason": "FlowEnd",
+                    "isDisabled": false
+                },
+                "context": {
+                    "type": "item",
+                    "value": {
+                        "id": 3092125565,
+                        "title": "Книги по психологии и саморазвитию",
+                        "isAllowMessages": true,
+                        "categoryId": 83,
+                        "rootCategoryId": 100000,
+                        "datetime": 1713450403,
+                        "location": "Москва",
+                        "images": {
+                            "main": {
+                                "140x105": "https://10.img.avito.st/image/1/1.MEcBYbaxnK4vwEytbX0CE3DDnq6z1Jis.KIIbpUa4bEQrHhuycWSj7u28kRLl8kO1qQbuznn4Oqw",
+                                "catalog": "https://10.img.avito.st/image/1/1.MEcBYba9nK53xG6obX0CE3DDnqq_yl6qR8aerLPMlKyz1Jis.0pErDe3-9_ELqDXptFrz02KB0kaRn92Jce-ucc9RY-M",
+                                "catalog_vip": "https://10.img.avito.st/image/1/1.MEcBYba9nK53zw6mbX0CE3DDnqq_yl6hJ8ierLPMlKyz1Jis.kgdYXcHUA4Et_1iGUkMal4wqwCa4NFWwu1exf4hJv8g"
+                            },
+                            "count": 1
+                        },
+                        "statusId": 4,
+                        "priceString": "990 ₽",
+                        "price": 990,
+                        "isActive": true,
+                        "sharedLocation": {
+                            "title": "Москва",
+                            "lat": 55.890638,
+                            "lon": 37.58879
+                        },
+                        "isVisibleInSearch": true,
+                        "urlPath": "/moskva/knigi_i_zhurnaly/knigi_po_psihologii_i_samorazvitiyu_3092125565",
+                        "actions": [
+                            {
+                                "title": "Заблокировать",
+                                "uri": "ru.avito://1/channel/block?userId=57013dc487fe72234b6814a2888c4d08\u0026itemId=3092125565"
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "uri": "ru.avito://1/abuse/report?itemId=3092125565\u0026src=messenger"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "uri": "ru.avito://1/channel/delete?channelId=u2i-RXTWrAIHRt9Li1V2WZjlzw"
+                            }
+                        ],
+                        "menu": [
+                            {
+                                "title": "Оставить отзыв",
+                                "deepLink": "ru.avito://1/rating/form?fid=789cbad52db0be26f2fe4386af164f929a3c3fa81fb83f7ff20b952a46b1b9e61d5b03e4adb6051c3bd0bbaeeedac737ef4a9ef99c04040000ffff708c1a8c",
+                                "icon": "review"
+                            },
+                            {
+                                "title": "Заблокировать",
+                                "deepLink": "ru.avito://1/channel/block?userId=57013dc487fe72234b6814a2888c4d08\u0026channelId=u2i-RXTWrAIHRt9Li1V2WZjlzw\u0026itemId=3092125565",
+                                "icon": "block_user",
+                                "confirmation": {
+                                    "title": "Точно хотите заблокировать?",
+                                    "description": "Этот пользователь больше не сможет вам написать.",
+                                    "ok": "Да, заблокировать",
+                                    "cancel": "Нет, вернуться в чат"
+                                }
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "deepLink": "ru.avito://1/abuse/report?itemId=3092125565\u0026src=messenger",
+                                "icon": "report_user"
+                            },
+                            {
+                                "title": "Отметить чат непрочитанным",
+                                "deepLink": "ru.avito://1/channel/markAsUnread?channelId=u2i-RXTWrAIHRt9Li1V2WZjlzw",
+                                "icon": "mark_as_unread"
+                            },
+                            {
+                                "title": "Закрепить",
+                                "deepLink": "ru.avito://1/channel/pin?channelId=u2i-RXTWrAIHRt9Li1V2WZjlzw",
+                                "icon": "pin"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "deepLink": "ru.avito://1/channel/delete?channelId=u2i-RXTWrAIHRt9Li1V2WZjlzw",
+                                "icon": "delete",
+                                "confirmation": {
+                                    "title": "Точно хотите удалить чат?",
+                                    "description": "",
+                                    "ok": "Да, удалить",
+                                    "cancel": "Нет, оставить"
+                                }
+                            }
+                        ],
+                        "attachMenu": {
+                            "video": {
+                                "title": "Отправить видео",
+                                "maxSizeBytes": 157286400,
+                                "maxDurationSec": 300
+                            },
+                            "image": {
+                                "title": "Отправить фото"
+                            },
+                            "location": {
+                                "title": "Указать место встречи",
+                                "sharedLocation": {
+                                    "title": "Москва",
+                                    "lat": 55.890638,
+                                    "lon": 37.58879
+                                }
+                            },
+                            "item": {
+                                "title": "Прикрепить объявление",
+                                "itemId": 3092125565
+                            },
+                            "replies": {
+                                "title": "Быстрый ответ"
+                            }
+                        },
+                        "userId": "57013dc487fe72234b6814a2888c4d08"
+                    }
+                },
+                "info": {
+                    "name": "Анастасия",
+                    "avatar": {
+                        "128x128": "https://static.avito.ru/stub_avatars/%D0%90/10_128x128.png",
+                        "192x192": "https://static.avito.ru/stub_avatars/%D0%90/10_192x192.png",
+                        "24x24": "https://static.avito.ru/stub_avatars/%D0%90/10_24x24.png",
+                        "256x256": "https://static.avito.ru/stub_avatars/%D0%90/10_256x256.png",
+                        "36x36": "https://static.avito.ru/stub_avatars/%D0%90/10_36x36.png",
+                        "48x48": "https://static.avito.ru/stub_avatars/%D0%90/10_48x48.png",
+                        "64x64": "https://static.avito.ru/stub_avatars/%D0%90/10_64x64.png",
+                        "72x72": "https://static.avito.ru/stub_avatars/%D0%90/10_72x72.png",
+                        "96x96": "https://static.avito.ru/stub_avatars/%D0%90/10_96x96.png"
+                    },
+                    "link": {
+                        "title": "Перейти в профиль",
+                        "uri": "ru.avito://1/user/profile?userKey=57013dc487fe72234b6814a2888c4d08\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNrA0MjQyNTUztS4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAYLl4-UwAAAA",
+                        "url": "/user/57013dc487fe72234b6814a2888c4d08/profile?id=3092125565\u0026iid=3092125565\u0026src=messenger\u0026page_from=from_item_messenger"
+                    },
+                    "userId": "57013dc487fe72234b6814a2888c4d08"
+                },
+                "users": [
+                    {
+                        "name": "Николай Колин",
+                        "lastActionTime": 1713537217,
+                        "timeDiff": 0,
+                        "statusId": 5,
+                        "id": "aae01879ec3f6ccdbbe75a93b468e142",
+                        "publicUserProfile": {
+                            "itemId": 3092125565,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=aae01879ec3f6ccdbbe75a93b468e142\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNrA0MjQyNTUztS4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAYLl4-UwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%9D/7_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%9D/7_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%9D/7_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%9D/7_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%9D/7_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%9D/7_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%9D/7_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%9D/7_96x96.png"
+                                }
+                            },
+                            "url": "/user/aae01879ec3f6ccdbbe75a93b468e142/profile?id=3092125565\u0026iid=3092125565\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    },
+                    {
+                        "name": "Анастасия",
+                        "lastActionTime": 1713535692,
+                        "timeDiff": 1525,
+                        "statusId": 5,
+                        "id": "57013dc487fe72234b6814a2888c4d08",
+                        "publicUserProfile": {
+                            "itemId": 3092125565,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=57013dc487fe72234b6814a2888c4d08\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNrA0MjQyNTUztS4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAYLl4-UwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%90/10_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%90/10_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%90/10_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%90/10_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%90/10_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%90/10_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%90/10_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%90/10_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%90/10_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%90/10_96x96.png"
+                                }
+                            },
+                            "url": "/user/57013dc487fe72234b6814a2888c4d08/profile?id=3092125565\u0026iid=3092125565\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    }
+                ],
+                "authorId": "36ad86823617806f4e071c16f3f54ce8",
+                "lastMessage": {
+                    "id": "e38af442c6e2ca49f4ef6809f6e84133",
+                    "body": {
+                        "chunks": [
+                            {
+                                "type": "text",
+                                "value": {
+                                    "text": "Вы всегда можете нажать «Купить с доставкой» в объявлении и воспользоваться доставкой Авито."
+                                }
+                            }
+                        ],
+                        "flow": "flower_63690",
+                        "flowType": 1,
+                        "randomId": "flower_512653591_step_5126803_seq1",
+                        "text": "Сообщение не поддерживается. Пожалуйста, обновите приложение"
+                    },
+                    "platformSupport": {
+                        "platforms": [
+                            "ios",
+                            "android",
+                            "web",
+                            "mav"
+                        ],
+                        "fallback": {
+                            "text": "Сообщение не поддерживается на этой платформе"
+                        }
+                    },
+                    "preview": {
+                        "text": "Вы всегда можете нажать «Купить с доставкой» в объявлении и воспользоваться доставкой Авито."
+                    },
+                    "channelId": "u2i-RXTWrAIHRt9Li1V2WZjlzw",
+                    "type": "system",
+                    "subtype": "platform",
+                    "created": 17122312138216870,
+                    "isDeleted": false,
+                    "isRead": true,
+                    "isSpam": false,
+                    "delivered": 17122312138216870,
+                    "read": 17122312140814914,
+                    "uid": "aae01879ec3f6ccdbbe75a93b468e142",
+                    "fromUid": "36ad86823617806f4e071c16f3f54ce8"
+                }
+            },
+            {
+                "channelId": "u2i-~fIZEebr5fmkj4AiyzJk3w",
+                "type": "u2i",
+                "created": 17122272386330000,
+                "updated": 17122272477958770,
+                "readOnly": false,
+                "contextActions": {
+                    "version": 10,
+                    "platformSupport": {
+                        "platforms": [
+                            "ios",
+                            "android",
+                            "web",
+                            "mav"
+                        ],
+                        "fallback": {
+                            "text": "Сообщение не поддерживается на этой платформе"
+                        }
+                    },
+                    "value": {
+                        "title": "",
+                        "actions": [
+                            {
+                                "type": "primary",
+                                "text": "Купить с доставкой",
+                                "handler": {
+                                    "type": "link",
+                                    "value": {
+                                        "deepLink": "ru.avito://1/webview?mavAuth=true\u0026url=https%3A%2F%2Fwww.avito.ru%2Fweb%2F1%2Fflower%2FflowButtonClick%3FflowId%3D63690%26flowRunId%3D512672533%26redirectUrl%3Dru.avito%253A%252F%252F1%252FdeepLinks%252Ffallbackable%252Fopen%253Ffallbacks%253D%25255B%252522ru.avito%25253A%25252F%25252F1%25252FdeepLinks%25252Fconditional%25252FappVersion%25253Fandroid%25253D131.5%25255Cu0026equal%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252FsavedAddress%2525252Fcheck%2525253FitemId%2525253D3627628983%25252522%2525255D%25255Cu0026greater%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252FsavedAddress%2525252Fcheck%2525253FitemId%2525253D3627628983%25252522%2525255D%25255Cu0026ios%25253D130.1%25255Cu0026less%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252Forder%2525252Fcreate%2525253FitemId%2525253D3627628983%2525255Cu0026source%2525253Dbuyer_invitation%25252522%2525255D%252522%25252C%252522ru.avito%25253A%25252F%25252F1%25252Fdelivery%25252Forder%25252Fcreate%25253FitemId%25253D3627628983%25255Cu0026source%25253Dbuyer_invitation%252522%25255D%26sendReaction%3Dtrue%26transitionId%3D9657504%26versionId%3D474927",
+                                        "url": "https://www.avito.ru/web/1/flower/flowButtonClick?flowId=63690\u0026flowRunId=512672533\u0026redirectUrl=https%3A%2F%2Fwww.avito.ru%2Fsergiev_posad%2Fsport_i_otdyh%2Fkovrik_dlya_yogi_i_fitnesa_3627628983%3Fsrcp%3Dbuyer_invitation%26delivery\u0026sendReaction=true\u0026transitionId=9657504\u0026versionId=474927"
+                                    }
+                                },
+                                "confirmation": null,
+                                "analytics": "9657504"
+                            }
+                        ]
+                    },
+                    "type": "actions"
+                },
+                "isRead": true,
+                "isAnswered": true,
+                "tags": [],
+                "inputState": {
+                    "reason": "FlowEnd",
+                    "isDisabled": false
+                },
+                "context": {
+                    "type": "item",
+                    "value": {
+                        "id": 3627628983,
+                        "title": "Коврик для йоги и фитнеса",
+                        "isAllowMessages": true,
+                        "categoryId": 39,
+                        "rootCategoryId": 100000,
+                        "datetime": 1712822896,
+                        "location": "Сергиев Посад",
+                        "images": {
+                            "main": {
+                                "140x105": "https://90.img.avito.st/image/1/1.3y-2Mraxc8aYk6PFhG3_D7yQccYEh3fE.Q0tbFp3vi7ghbtE8nVf0ntNgCEzS073vEqeOMYuzPpw",
+                                "catalog": "https://90.img.avito.st/image/1/1.3y-2Mra9c8bAl4HAhG3_D7yQccIImbHC8JVxxASfe8QEh3fE.WoiJY1XQV-SaTkBCTf6SCExGV8y1d9x9rUMBVLCKyH8",
+                                "catalog_vip": "https://90.img.avito.st/image/1/1.3y-2Mra9c8bAnOHOhG3_D7yQccIImbHJkJtxxASfe8QEh3fE.cmMiPHV0LEZbTrtwRnhDRbXpjyW7heoKy0LD5oWulyU"
+                            },
+                            "count": 1
+                        },
+                        "statusId": 4,
+                        "priceString": "300 ₽",
+                        "price": 300,
+                        "isActive": true,
+                        "sharedLocation": {
+                            "title": "Сергиев Посад",
+                            "lat": 56.31531143,
+                            "lon": 38.13597107
+                        },
+                        "isVisibleInSearch": true,
+                        "urlPath": "/sergiev_posad/sport_i_otdyh/kovrik_dlya_yogi_i_fitnesa_3627628983",
+                        "actions": [
+                            {
+                                "title": "Заблокировать",
+                                "uri": "ru.avito://1/channel/block?userId=ab540c4ecffee93629229ab405993255\u0026itemId=3627628983"
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "uri": "ru.avito://1/abuse/report?itemId=3627628983\u0026src=messenger"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "uri": "ru.avito://1/channel/delete?channelId=u2i-~fIZEebr5fmkj4AiyzJk3w"
+                            }
+                        ],
+                        "menu": [
+                            {
+                                "title": "Оставить отзыв",
+                                "deepLink": "ru.avito://1/rating/form?fid=789c7a2b2d613b73c1cd3b7579ca0549ce4c7f4f1a1a48adb92491f469afc2af39450aed56db028e1de85d5777ede39b7725cf7c4e02020000ffff3e2019b8",
+                                "icon": "review"
+                            },
+                            {
+                                "title": "Заблокировать",
+                                "deepLink": "ru.avito://1/channel/block?userId=ab540c4ecffee93629229ab405993255\u0026channelId=u2i-~fIZEebr5fmkj4AiyzJk3w\u0026itemId=3627628983",
+                                "icon": "block_user",
+                                "confirmation": {
+                                    "title": "Точно хотите заблокировать?",
+                                    "description": "Этот пользователь больше не сможет вам написать.",
+                                    "ok": "Да, заблокировать",
+                                    "cancel": "Нет, вернуться в чат"
+                                }
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "deepLink": "ru.avito://1/abuse/report?itemId=3627628983\u0026src=messenger",
+                                "icon": "report_user"
+                            },
+                            {
+                                "title": "Отметить чат непрочитанным",
+                                "deepLink": "ru.avito://1/channel/markAsUnread?channelId=u2i-~fIZEebr5fmkj4AiyzJk3w",
+                                "icon": "mark_as_unread"
+                            },
+                            {
+                                "title": "Закрепить",
+                                "deepLink": "ru.avito://1/channel/pin?channelId=u2i-~fIZEebr5fmkj4AiyzJk3w",
+                                "icon": "pin"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "deepLink": "ru.avito://1/channel/delete?channelId=u2i-~fIZEebr5fmkj4AiyzJk3w",
+                                "icon": "delete",
+                                "confirmation": {
+                                    "title": "Точно хотите удалить чат?",
+                                    "description": "",
+                                    "ok": "Да, удалить",
+                                    "cancel": "Нет, оставить"
+                                }
+                            }
+                        ],
+                        "attachMenu": {
+                            "video": {
+                                "title": "Отправить видео",
+                                "maxSizeBytes": 157286400,
+                                "maxDurationSec": 300
+                            },
+                            "image": {
+                                "title": "Отправить фото"
+                            },
+                            "location": {
+                                "title": "Указать место встречи",
+                                "sharedLocation": {
+                                    "title": "Сергиев Посад",
+                                    "lat": 56.31531143,
+                                    "lon": 38.13597107
+                                }
+                            },
+                            "item": {
+                                "title": "Прикрепить объявление",
+                                "itemId": 3627628983
+                            },
+                            "replies": {
+                                "title": "Быстрый ответ"
+                            }
+                        },
+                        "userId": "ab540c4ecffee93629229ab405993255"
+                    }
+                },
+                "info": {
+                    "name": "Ульяна Самойлова",
+                    "avatar": {
+                        "100x100": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNWaHXjW1KNDVe0dsNVaFHjWmh2w1w.K1jkQJQfnaV3jLjceH7RjDjPsBr_1UbYuaAX4qsYDGU",
+                        "1024x1024": "https://10.img.avito.st/image/1/1.Hjzkv7atpNXSDDDH1KNDVe0dsNc.5KvgPMsOBMzVeg1EIQihNrrjJaAomNnUIZbDMimfBIo",
+                        "128x128": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXSHjDV1KNDVe0dsNVaFDDV0h6w1w.3Toyz7IwoPQ4ePR8GA-jb3ge35DVVdZKW_BweiDpBZ0",
+                        "132x132": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXaHjjV1KNDVe0dsNVaFDjV2h6w1w.GfMU6ahlnFut9g-m_yUtTGSuSH6QVwr2-1h_qC7GRUI",
+                        "176x176": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNWyHlDV1KNDVe0dsNVaFFDVsh6w1w.oDd7zdHfM1EUSKa9iv_3EmzVZPMAuJC3aiAWDaeEUVU",
+                        "192x192": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXSHzDU1KNDVe0dsNVaFDDU0h-w1w.oP2fKuzf0dcPPdkPjfVmZDWkb0_UKJyPpSJrXiEPduQ",
+                        "256x256": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXSGDDT1KNDVe0dsNVaFDDT0hiw1w.dmeQfZFntpfjCquc5imIOHM9XlNe3-_85EebJ3Wim60",
+                        "25x25": "https://10.img.avito.st/image/1/1.Hjzkv7axpNVgLjZooZ4P1lIeuN9gLrDX.42N36E6-uRVCtnps7jd6fEJdY70W2BhIh38K5CPFgkI",
+                        "50x50": "https://10.img.avito.st/image/1/1.Hjzkv7axpNU2eDZooZ4P1lIeuN82eLDX.ac-c_RuitV4QcCv8mTpKV6P_JQJonvKAG3x2mQynsxA",
+                        "64x64": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXSHTDW1KNDVe0dsNVaFDDW0h2w1w.jVHjmHT0uq6xtuxl5CDAag2WUG7yQ1qoBGP7VQG4SZw",
+                        "96x96": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNWSHXDW1KNDVe0dsNVaFHDWkh2w1w.RHrszxYznxyykpor5tRysYuBREVKjQj8U7Ic1Ks0pF8"
+                    },
+                    "link": {
+                        "title": "Перейти в профиль",
+                        "uri": "ru.avito://1/user/profile?userKey=ab540c4ecffee93629229ab405993255\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjMyNzOysLQwti4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAuWfzukwAAAA",
+                        "url": "/user/ab540c4ecffee93629229ab405993255/profile?id=3627628983\u0026iid=3627628983\u0026src=messenger\u0026page_from=from_item_messenger"
+                    },
+                    "userId": "ab540c4ecffee93629229ab405993255"
+                },
+                "users": [
+                    {
+                        "name": "Николай Колин",
+                        "lastActionTime": 1713537217,
+                        "timeDiff": 0,
+                        "statusId": 5,
+                        "id": "aae01879ec3f6ccdbbe75a93b468e142",
+                        "publicUserProfile": {
+                            "itemId": 3627628983,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=aae01879ec3f6ccdbbe75a93b468e142\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjMyNzOysLQwti4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAuWfzukwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%9D/7_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%9D/7_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%9D/7_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%9D/7_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%9D/7_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%9D/7_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%9D/7_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%9D/7_96x96.png"
+                                }
+                            },
+                            "url": "/user/aae01879ec3f6ccdbbe75a93b468e142/profile?id=3627628983\u0026iid=3627628983\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    },
+                    {
+                        "name": "Ульяна Самойлова",
+                        "lastActionTime": 1710772417,
+                        "timeDiff": 2764800,
+                        "statusId": 5,
+                        "id": "ab540c4ecffee93629229ab405993255",
+                        "publicUserProfile": {
+                            "itemId": 3627628983,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=ab540c4ecffee93629229ab405993255\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjMyNzOysLQwti4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAuWfzukwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXSGDDT1KNDVe0dsNVaFDDT0hiw1w.dmeQfZFntpfjCquc5imIOHM9XlNe3-_85EebJ3Wim60",
+                                "images": {
+                                    "100x100": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNWaHXjW1KNDVe0dsNVaFHjWmh2w1w.K1jkQJQfnaV3jLjceH7RjDjPsBr_1UbYuaAX4qsYDGU",
+                                    "1024x1024": "https://10.img.avito.st/image/1/1.Hjzkv7atpNXSDDDH1KNDVe0dsNc.5KvgPMsOBMzVeg1EIQihNrrjJaAomNnUIZbDMimfBIo",
+                                    "128x128": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXSHjDV1KNDVe0dsNVaFDDV0h6w1w.3Toyz7IwoPQ4ePR8GA-jb3ge35DVVdZKW_BweiDpBZ0",
+                                    "132x132": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXaHjjV1KNDVe0dsNVaFDjV2h6w1w.GfMU6ahlnFut9g-m_yUtTGSuSH6QVwr2-1h_qC7GRUI",
+                                    "176x176": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNWyHlDV1KNDVe0dsNVaFFDVsh6w1w.oDd7zdHfM1EUSKa9iv_3EmzVZPMAuJC3aiAWDaeEUVU",
+                                    "192x192": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXSHzDU1KNDVe0dsNVaFDDU0h-w1w.oP2fKuzf0dcPPdkPjfVmZDWkb0_UKJyPpSJrXiEPduQ",
+                                    "256x256": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXSGDDT1KNDVe0dsNVaFDDT0hiw1w.dmeQfZFntpfjCquc5imIOHM9XlNe3-_85EebJ3Wim60",
+                                    "25x25": "https://10.img.avito.st/image/1/1.Hjzkv7axpNVgLjZooZ4P1lIeuN9gLrDX.42N36E6-uRVCtnps7jd6fEJdY70W2BhIh38K5CPFgkI",
+                                    "50x50": "https://10.img.avito.st/image/1/1.Hjzkv7axpNU2eDZooZ4P1lIeuN82eLDX.ac-c_RuitV4QcCv8mTpKV6P_JQJonvKAG3x2mQynsxA",
+                                    "64x64": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNXSHTDW1KNDVe0dsNVaFDDW0h2w1w.jVHjmHT0uq6xtuxl5CDAag2WUG7yQ1qoBGP7VQG4SZw",
+                                    "96x96": "https://10.img.avito.st/image/1/1.Hjzkv7a1pNWSHXDW1KNDVe0dsNVaFHDWkh2w1w.RHrszxYznxyykpor5tRysYuBREVKjQj8U7Ic1Ks0pF8"
+                                }
+                            },
+                            "url": "/user/ab540c4ecffee93629229ab405993255/profile?id=3627628983\u0026iid=3627628983\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    }
+                ],
+                "authorId": "36ad86823617806f4e071c16f3f54ce8",
+                "lastMessage": {
+                    "id": "fb4e30937f36f8d54e02b81af911d522",
+                    "body": {
+                        "chunks": [
+                            {
+                                "type": "text",
+                                "value": {
+                                    "text": "⬇️ Чтобы оформить заказ, нажмите кнопку «Купить с доставкой»."
+                                }
+                            }
+                        ],
+                        "flow": "flower_63690",
+                        "flowType": 1,
+                        "randomId": "flower_512672533_step_5126817_seq1",
+                        "text": "Сообщение не поддерживается. Пожалуйста, обновите приложение"
+                    },
+                    "platformSupport": {
+                        "platforms": [
+                            "ios",
+                            "android",
+                            "web",
+                            "mav"
+                        ],
+                        "fallback": {
+                            "text": "Сообщение не поддерживается на этой платформе"
+                        }
+                    },
+                    "preview": {
+                        "text": "⬇️ Чтобы оформить заказ, нажмите кнопку «Купить с доставкой»."
+                    },
+                    "channelId": "u2i-~fIZEebr5fmkj4AiyzJk3w",
+                    "type": "system",
+                    "subtype": "platform",
+                    "created": 17122272477958770,
+                    "isDeleted": false,
+                    "isRead": true,
+                    "isSpam": false,
+                    "delivered": 17122272477958770,
+                    "read": 17122272478421328,
+                    "uid": "aae01879ec3f6ccdbbe75a93b468e142",
+                    "fromUid": "36ad86823617806f4e071c16f3f54ce8"
+                }
+            },
+            {
+                "channelId": "u2i-lgwa3DeSRpqffNEdDPWcvg",
+                "type": "u2i",
+                "created": 17122268589210000,
+                "updated": 17122269930783867,
+                "readOnly": false,
+                "contextActions": {
+                    "version": 7,
+                    "platformSupport": {
+                        "platforms": [
+                            "ios",
+                            "android",
+                            "web",
+                            "mav"
+                        ],
+                        "fallback": {
+                            "text": "Сообщение не поддерживается на этой платформе"
+                        }
+                    },
+                    "value": {
+                        "title": "",
+                        "actions": [
+                            {
+                                "type": "primary",
+                                "text": "Купить с доставкой",
+                                "handler": {
+                                    "type": "link",
+                                    "value": {
+                                        "deepLink": "ru.avito://1/webview?mavAuth=true\u0026url=https%3A%2F%2Fwww.avito.ru%2Fweb%2F1%2Fflower%2FflowButtonClick%3FflowId%3D63690%26flowRunId%3D512649472%26redirectUrl%3Dru.avito%253A%252F%252F1%252FdeepLinks%252Ffallbackable%252Fopen%253Ffallbacks%253D%25255B%252522ru.avito%25253A%25252F%25252F1%25252FdeepLinks%25252Fconditional%25252FappVersion%25253Fandroid%25253D131.5%25255Cu0026equal%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252FsavedAddress%2525252Fcheck%2525253FitemId%2525253D3708314137%25252522%2525255D%25255Cu0026greater%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252FsavedAddress%2525252Fcheck%2525253FitemId%2525253D3708314137%25252522%2525255D%25255Cu0026ios%25253D130.1%25255Cu0026less%25253D%2525255B%25252522ru.avito%2525253A%2525252F%2525252F1%2525252Fdelivery%2525252Forder%2525252Fcreate%2525253FitemId%2525253D3708314137%2525255Cu0026source%2525253Dbuyer_invitation%25252522%2525255D%252522%25252C%252522ru.avito%25253A%25252F%25252F1%25252Fdelivery%25252Forder%25252Fcreate%25253FitemId%25253D3708314137%25255Cu0026source%25253Dbuyer_invitation%252522%25255D%26sendReaction%3Dfalse%26transitionId%3D9657504%26versionId%3D474927",
+                                        "url": "https://www.avito.ru/web/1/flower/flowButtonClick?flowId=63690\u0026flowRunId=512649472\u0026redirectUrl=https%3A%2F%2Fwww.avito.ru%2Fmoskva%2Fknigi_i_zhurnaly%2Fknigi_3708314137%3Fsrcp%3Dbuyer_invitation%26delivery\u0026sendReaction=false\u0026transitionId=9657504\u0026versionId=474927"
+                                    }
+                                },
+                                "confirmation": null,
+                                "analytics": "9657504"
+                            },
+                            {
+                                "type": "secondary",
+                                "text": "Неинтересно",
+                                "handler": {
+                                    "type": "method_call",
+                                    "value": {
+                                        "method": "flower.flowButtonClick.v1",
+                                        "params": {
+                                            "__channelId": "u2i-lgwa3DeSRpqffNEdDPWcvg",
+                                            "flowRunId": 512649472,
+                                            "sendReaction": false,
+                                            "transitionId": 9657505
+                                        }
+                                    }
+                                },
+                                "confirmation": null,
+                                "analytics": "9657505"
+                            }
+                        ]
+                    },
+                    "type": "actions"
+                },
+                "isRead": true,
+                "isAnswered": true,
+                "tags": [],
+                "flow": "deal_confirmation_messenger",
+                "inputState": {
+                    "reason": "flower_63690",
+                    "isDisabled": false
+                },
+                "context": {
+                    "type": "item",
+                    "value": {
+                        "id": 3708314137,
+                        "title": "Книги",
+                        "isAllowMessages": true,
+                        "categoryId": 83,
+                        "rootCategoryId": 100000,
+                        "datetime": 1712760324,
+                        "location": "Москва",
+                        "images": {
+                            "main": {
+                                "140x105": "https://10.img.avito.st/image/1/1.fkG2ELax0qiYsQKrxm0Ebryy0KgEpdaq.NZY_aGWbancfFRA55MMQmjYYSUB2slkLkCRPNEqgqjc",
+                                "catalog": "https://10.img.avito.st/image/1/1.fkG2ELa90qjAtSCuxm0Ebryy0KwIuxCs8LfQqgS92qoEpdaq.4TBKsVgjBXqAaKZ4MlTHB3EkzJDWyqVZChL8_I8C_Y4",
+                                "catalog_vip": "https://10.img.avito.st/image/1/1.fkG2ELa90qjAvkCgxm0Ebryy0KwIuxCnkLnQqgS92qoEpdaq.pvzMkNkZe0h7ikNfwk3gCgp55tmUyGzV4HS8ptfjahI"
+                            },
+                            "count": 1
+                        },
+                        "statusId": 4,
+                        "priceString": "150 ₽",
+                        "price": 150,
+                        "isActive": true,
+                        "sharedLocation": {
+                            "title": "Москва",
+                            "lat": 55.780654,
+                            "lon": 37.596687
+                        },
+                        "isVisibleInSearch": true,
+                        "urlPath": "/moskva/knigi_i_zhurnaly/knigi_3708314137",
+                        "actions": [
+                            {
+                                "title": "Заблокировать",
+                                "uri": "ru.avito://1/channel/block?userId=b83c2f8a4df38b7829422d2585044ab0\u0026itemId=3708314137"
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "uri": "ru.avito://1/abuse/report?itemId=3708314137\u0026src=messenger"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "uri": "ru.avito://1/channel/delete?channelId=u2i-lgwa3DeSRpqffNEdDPWcvg"
+                            }
+                        ],
+                        "menu": [
+                            {
+                                "title": "Оставить отзыв",
+                                "deepLink": "ru.avito://1/rating/form?fid=789c925d5b672afba5eb7fe57357a6cf1f9eac2e48e96d74e76bb29f94627ef8c8d219c7adb6051c3bd0bbaeeedac737ef4a9ef99c04040000ffff73e51b70",
+                                "icon": "review"
+                            },
+                            {
+                                "title": "Заблокировать",
+                                "deepLink": "ru.avito://1/channel/block?userId=b83c2f8a4df38b7829422d2585044ab0\u0026channelId=u2i-lgwa3DeSRpqffNEdDPWcvg\u0026itemId=3708314137",
+                                "icon": "block_user",
+                                "confirmation": {
+                                    "title": "Точно хотите заблокировать?",
+                                    "description": "Этот пользователь больше не сможет вам написать.",
+                                    "ok": "Да, заблокировать",
+                                    "cancel": "Нет, вернуться в чат"
+                                }
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "deepLink": "ru.avito://1/abuse/report?itemId=3708314137\u0026src=messenger",
+                                "icon": "report_user"
+                            },
+                            {
+                                "title": "Отметить чат непрочитанным",
+                                "deepLink": "ru.avito://1/channel/markAsUnread?channelId=u2i-lgwa3DeSRpqffNEdDPWcvg",
+                                "icon": "mark_as_unread"
+                            },
+                            {
+                                "title": "Закрепить",
+                                "deepLink": "ru.avito://1/channel/pin?channelId=u2i-lgwa3DeSRpqffNEdDPWcvg",
+                                "icon": "pin"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "deepLink": "ru.avito://1/channel/delete?channelId=u2i-lgwa3DeSRpqffNEdDPWcvg",
+                                "icon": "delete",
+                                "confirmation": {
+                                    "title": "Точно хотите удалить чат?",
+                                    "description": "",
+                                    "ok": "Да, удалить",
+                                    "cancel": "Нет, оставить"
+                                }
+                            }
+                        ],
+                        "attachMenu": {
+                            "video": {
+                                "title": "Отправить видео",
+                                "maxSizeBytes": 157286400,
+                                "maxDurationSec": 300
+                            },
+                            "image": {
+                                "title": "Отправить фото"
+                            },
+                            "location": {
+                                "title": "Указать место встречи",
+                                "sharedLocation": {
+                                    "title": "Москва",
+                                    "lat": 55.780654,
+                                    "lon": 37.596687
+                                }
+                            },
+                            "item": {
+                                "title": "Прикрепить объявление",
+                                "itemId": 3708314137
+                            },
+                            "replies": {
+                                "title": "Быстрый ответ"
+                            }
+                        },
+                        "userId": "b83c2f8a4df38b7829422d2585044ab0"
+                    }
+                },
+                "info": {
+                    "name": "Алексей",
+                    "avatar": {
+                        "100x100": "https://30.img.avito.st/image/1/1.MS3mIra1i8SYgFfHiEZKGfiAn8RYiVfHmICfxg.qW4aYtYFKnnPnYyJ5GY4YmZgTpxkzqOq7NVLxdeioF4",
+                        "1024x1024": "https://30.img.avito.st/image/1/1.MS3mIrati8TQkR_WiEZKGfiAn8Y.0b5wNM7hF_i9GMPZtwk_tIMbKedlTooTHE_-XYXHBYs",
+                        "128x128": "https://30.img.avito.st/image/1/1.MS3mIra1i8TQgx_EiEZKGfiAn8RYiR_E0IOfxg.5tVVg4Srz8LmZ1VoCa1YmyVEomnRM8T5u3jlYV4v0uI",
+                        "132x132": "https://30.img.avito.st/image/1/1.MS3mIra1i8TYgxfEiEZKGfiAn8RYiRfE2IOfxg.FSxoNlxBqSVkuwQuu5ZrJ_xg3r639bfj3Iosq2SerSc",
+                        "176x176": "https://30.img.avito.st/image/1/1.MS3mIra1i8Swg3_EiEZKGfiAn8RYiX_EsIOfxg.hEwznL5qN927mWFkF1N7QL8SceugVqA3AZz-kCITr6w",
+                        "192x192": "https://30.img.avito.st/image/1/1.MS3mIra1i8TQgh_FiEZKGfiAn8RYiR_F0IKfxg.Gfty2QPA4RrjL7B3JVFbwvMH00UPjzDiYbUC6MetoW4",
+                        "256x256": "https://30.img.avito.st/image/1/1.MS3mIra1i8TQhR_CiEZKGfiAn8RYiR_C0IWfxg.5YDZpSG_Gp2ULMbNqqxlDquKRoIcR-zwmCcmdAkX-zs",
+                        "25x25": "https://30.img.avito.st/image/1/1.MS3mIraxi8Ris0cBhV43x1CDl85is5_G.jydevrTWZ_vLnYHEZa71dKN-idPMRraJ5qpl5JA-AeA",
+                        "50x50": "https://30.img.avito.st/image/1/1.MS3mIraxi8Q05UcBhV43x1CDl8405Z_G.9_eRy1tAA9Z4Q96MrSwW6xU2O3J6wHABI8JWNvDIToE",
+                        "64x64": "https://30.img.avito.st/image/1/1.MS3mIra1i8TQgB_HiEZKGfiAn8RYiR_H0ICfxg.G4k6vlsfOE8IwHl-E_kHn_hFeKy8S_xJt8YvhDBeN48",
+                        "96x96": "https://30.img.avito.st/image/1/1.MS3mIra1i8SQgF_HiEZKGfiAn8RYiV_HkICfxg.j-kpI1CYFDeUN7NxIIhb85jrE5ylrpWiAFaoUnJUUXY"
+                    },
+                    "link": {
+                        "title": "Перейти в профиль",
+                        "uri": "ru.avito://1/user/profile?userKey=b83c2f8a4df38b7829422d2585044ab0\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjewMDY0MTQ2ty4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAqmfTpkwAAAA",
+                        "url": "/user/b83c2f8a4df38b7829422d2585044ab0/profile?id=3708314137\u0026iid=3708314137\u0026src=messenger\u0026page_from=from_item_messenger"
+                    },
+                    "userId": "b83c2f8a4df38b7829422d2585044ab0"
+                },
+                "users": [
+                    {
+                        "name": "Николай Колин",
+                        "lastActionTime": 1713537217,
+                        "timeDiff": 0,
+                        "statusId": 5,
+                        "id": "aae01879ec3f6ccdbbe75a93b468e142",
+                        "publicUserProfile": {
+                            "itemId": 3708314137,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=aae01879ec3f6ccdbbe75a93b468e142\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjewMDY0MTQ2ty4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAqmfTpkwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%9D/7_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%9D/7_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%9D/7_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%9D/7_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%9D/7_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%9D/7_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%9D/7_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%9D/7_96x96.png"
+                                }
+                            },
+                            "url": "/user/aae01879ec3f6ccdbbe75a93b468e142/profile?id=3708314137\u0026iid=3708314137\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    },
+                    {
+                        "name": "Алексей",
+                        "lastActionTime": 1713535757,
+                        "timeDiff": 1460,
+                        "statusId": 5,
+                        "id": "b83c2f8a4df38b7829422d2585044ab0",
+                        "publicUserProfile": {
+                            "itemId": 3708314137,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=b83c2f8a4df38b7829422d2585044ab0\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjewMDY0MTQ2ty4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loAqmfTpkwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://30.img.avito.st/image/1/1.MS3mIra1i8TQhR_CiEZKGfiAn8RYiR_C0IWfxg.5YDZpSG_Gp2ULMbNqqxlDquKRoIcR-zwmCcmdAkX-zs",
+                                "images": {
+                                    "100x100": "https://30.img.avito.st/image/1/1.MS3mIra1i8SYgFfHiEZKGfiAn8RYiVfHmICfxg.qW4aYtYFKnnPnYyJ5GY4YmZgTpxkzqOq7NVLxdeioF4",
+                                    "1024x1024": "https://30.img.avito.st/image/1/1.MS3mIrati8TQkR_WiEZKGfiAn8Y.0b5wNM7hF_i9GMPZtwk_tIMbKedlTooTHE_-XYXHBYs",
+                                    "128x128": "https://30.img.avito.st/image/1/1.MS3mIra1i8TQgx_EiEZKGfiAn8RYiR_E0IOfxg.5tVVg4Srz8LmZ1VoCa1YmyVEomnRM8T5u3jlYV4v0uI",
+                                    "132x132": "https://30.img.avito.st/image/1/1.MS3mIra1i8TYgxfEiEZKGfiAn8RYiRfE2IOfxg.FSxoNlxBqSVkuwQuu5ZrJ_xg3r639bfj3Iosq2SerSc",
+                                    "176x176": "https://30.img.avito.st/image/1/1.MS3mIra1i8Swg3_EiEZKGfiAn8RYiX_EsIOfxg.hEwznL5qN927mWFkF1N7QL8SceugVqA3AZz-kCITr6w",
+                                    "192x192": "https://30.img.avito.st/image/1/1.MS3mIra1i8TQgh_FiEZKGfiAn8RYiR_F0IKfxg.Gfty2QPA4RrjL7B3JVFbwvMH00UPjzDiYbUC6MetoW4",
+                                    "256x256": "https://30.img.avito.st/image/1/1.MS3mIra1i8TQhR_CiEZKGfiAn8RYiR_C0IWfxg.5YDZpSG_Gp2ULMbNqqxlDquKRoIcR-zwmCcmdAkX-zs",
+                                    "25x25": "https://30.img.avito.st/image/1/1.MS3mIraxi8Ris0cBhV43x1CDl85is5_G.jydevrTWZ_vLnYHEZa71dKN-idPMRraJ5qpl5JA-AeA",
+                                    "50x50": "https://30.img.avito.st/image/1/1.MS3mIraxi8Q05UcBhV43x1CDl8405Z_G.9_eRy1tAA9Z4Q96MrSwW6xU2O3J6wHABI8JWNvDIToE",
+                                    "64x64": "https://30.img.avito.st/image/1/1.MS3mIra1i8TQgB_HiEZKGfiAn8RYiR_H0ICfxg.G4k6vlsfOE8IwHl-E_kHn_hFeKy8S_xJt8YvhDBeN48",
+                                    "96x96": "https://30.img.avito.st/image/1/1.MS3mIra1i8SQgF_HiEZKGfiAn8RYiV_HkICfxg.j-kpI1CYFDeUN7NxIIhb85jrE5ylrpWiAFaoUnJUUXY"
+                                }
+                            },
+                            "url": "/user/b83c2f8a4df38b7829422d2585044ab0/profile?id=3708314137\u0026iid=3708314137\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    }
+                ],
+                "authorId": "36ad86823617806f4e071c16f3f54ce8",
+                "lastMessage": {
+                    "id": "682b6b0640543d5c543862c70f802a9a",
+                    "body": {
+                        "randomId": "5891babb-763b-416b-b2c8-f0f8ca36a5df",
+                        "text": "Здравствуйте нет этой книги уже продано"
+                    },
+                    "channelId": "u2i-lgwa3DeSRpqffNEdDPWcvg",
+                    "type": "text",
+                    "created": 17122269930783867,
+                    "isDeleted": false,
+                    "isRead": true,
+                    "isSpam": false,
+                    "delivered": 17122269930783867,
+                    "read": 17122304493886486,
+                    "uid": "aae01879ec3f6ccdbbe75a93b468e142",
+                    "fromUid": "b83c2f8a4df38b7829422d2585044ab0"
+                }
+            },
+            {
+                "channelId": "u2i-JZzxhNZKslPAWvl5LoBwfg",
+                "type": "u2i",
+                "created": 17005923511430000,
+                "updated": 17008423595184386,
+                "readOnly": false,
+                "contextActions": {
+                    "version": 1,
+                    "platformSupport": {
+                        "platforms": [
+                            "ios",
+                            "android",
+                            "web",
+                            "mav"
+                        ],
+                        "fallback": {
+                            "text": "Сообщение не поддерживается на этой платформе"
+                        }
+                    },
+                    "messageId": "9833489aa161112de4ecaaa1b9e69565",
+                    "value": {
+                        "title": "",
+                        "actions": [
+                            {
+                                "type": "primary",
+                                "text": "Да, договорились",
+                                "handler": {
+                                    "type": "method_call",
+                                    "value": {
+                                        "method": "deal_confirmation_messenger.buyerConfirmCallback.v1",
+                                        "params": {
+                                            "__channelId": "u2i-JZzxhNZKslPAWvl5LoBwfg",
+                                            "answer": "Да, договорились",
+                                            "chatId": "u2i-JZzxhNZKslPAWvl5LoBwfg",
+                                            "flowId": 155126442,
+                                            "userId": 111366518
+                                        }
+                                    }
+                                },
+                                "confirmation": null,
+                                "analytics": "{\"answer\":\"Да, договорились\",\"chatId\":\"u2i-JZzxhNZKslPAWvl5LoBwfg\",\"flowId\":155126442,\"userId\":111366518}"
+                            },
+                            {
+                                "type": "secondary",
+                                "text": "Еще решаем",
+                                "handler": {
+                                    "type": "method_call",
+                                    "value": {
+                                        "method": "deal_confirmation_messenger.buyerPostponeCallback.v1",
+                                        "params": {
+                                            "__channelId": "u2i-JZzxhNZKslPAWvl5LoBwfg",
+                                            "answer": "Еще решаем",
+                                            "chatId": "u2i-JZzxhNZKslPAWvl5LoBwfg",
+                                            "flowId": 155126442,
+                                            "userId": 111366518
+                                        }
+                                    }
+                                },
+                                "confirmation": null,
+                                "analytics": "{\"answer\":\"Еще решаем\",\"chatId\":\"u2i-JZzxhNZKslPAWvl5LoBwfg\",\"flowId\":155126442,\"userId\":111366518}"
+                            },
+                            {
+                                "type": "secondary",
+                                "text": "Нет",
+                                "handler": {
+                                    "type": "method_call",
+                                    "value": {
+                                        "method": "deal_confirmation_messenger.buyerRejectCallback.v1",
+                                        "params": {
+                                            "__channelId": "u2i-JZzxhNZKslPAWvl5LoBwfg",
+                                            "answer": "Нет",
+                                            "chatId": "u2i-JZzxhNZKslPAWvl5LoBwfg",
+                                            "flowId": 155126442,
+                                            "userId": 111366518
+                                        }
+                                    }
+                                },
+                                "confirmation": null,
+                                "analytics": "{\"answer\":\"Нет\",\"chatId\":\"u2i-JZzxhNZKslPAWvl5LoBwfg\",\"flowId\":155126442,\"userId\":111366518}"
+                            }
+                        ]
+                    },
+                    "type": "actions"
+                },
+                "isRead": false,
+                "isAnswered": true,
+                "tags": [],
+                "flow": "deal_confirmation_messenger",
+                "inputState": {
+                    "isDisabled": false
+                },
+                "context": {
+                    "type": "item",
+                    "value": {
+                        "id": 3128279408,
+                        "title": "Массаж",
+                        "isAllowMessages": true,
+                        "categoryId": 114,
+                        "rootCategoryId": 100000,
+                        "datetime": 1713469769,
+                        "location": "Орёл",
+                        "images": {
+                            "main": {
+                                "140x105": "https://50.img.avito.st/image/1/1.4AEOqLa-TOggCZzrQv_QXyEKTu6wA-7pAAlO6r4J1uhqCk4.hGSkpr91cDHMRg9044SZuDCCfw58LM48PfKs_Ze9sZo",
+                                "catalog": "https://50.img.avito.st/image/1/1.4AEOqLa-TOh4Db7uQv_QXyEKTu6wA47sSA9O6rwFROq6CRQ.O_9QE2idrBovC34g767zjtuCV-61xUGZEYllvnn3Y1Y",
+                                "catalog_vip": "https://50.img.avito.st/image/1/1.4AEOqLa-TOh4Bt7gQv_QXyEKTu6wA47nKAFO6rwFROq6CRQ.h5krP1wCs7Ut4WWsjPc-F4gjK11EnefolB5YwArqlGs"
+                            },
+                            "count": 1
+                        },
+                        "statusId": 4,
+                        "priceString": "от 700 ₽",
+                        "price": 700,
+                        "isActive": true,
+                        "sharedLocation": {
+                            "title": "Орёл",
+                            "lat": 52.966813,
+                            "lon": 36.063379
+                        },
+                        "isVisibleInSearch": true,
+                        "urlPath": "/orel/predlozheniya_uslug/massazh_3128279408",
+                        "actions": [
+                            {
+                                "title": "Заблокировать",
+                                "uri": "ru.avito://1/channel/block?userId=c134ca7ecb262ca7d98031e1fdabd157\u0026itemId=3128279408"
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "uri": "ru.avito://1/abuse/report?itemId=3128279408\u0026src=messenger"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "uri": "ru.avito://1/channel/delete?channelId=u2i-JZzxhNZKslPAWvl5LoBwfg"
+                            }
+                        ],
+                        "menu": [
+                            {
+                                "title": "Оставить отзыв",
+                                "deepLink": "ru.avito://1/rating/form?fid=789caaffe9942b59f3bd7cfac139133d4f4859591fbbfa36abd56be1fddeb7e97d816715adb6051c3bd0bbaeeedac737ef4a9ef99c04040000ffff83ad1bce",
+                                "icon": "review"
+                            },
+                            {
+                                "title": "Заблокировать",
+                                "deepLink": "ru.avito://1/channel/block?userId=c134ca7ecb262ca7d98031e1fdabd157\u0026channelId=u2i-JZzxhNZKslPAWvl5LoBwfg\u0026itemId=3128279408",
+                                "icon": "block_user",
+                                "confirmation": {
+                                    "title": "Точно хотите заблокировать?",
+                                    "description": "Этот пользователь больше не сможет вам написать.",
+                                    "ok": "Да, заблокировать",
+                                    "cancel": "Нет, вернуться в чат"
+                                }
+                            },
+                            {
+                                "title": "Пожаловаться",
+                                "deepLink": "ru.avito://1/abuse/report?itemId=3128279408\u0026src=messenger",
+                                "icon": "report_user"
+                            },
+                            {
+                                "title": "Отметить чат непрочитанным",
+                                "deepLink": "ru.avito://1/channel/markAsUnread?channelId=u2i-JZzxhNZKslPAWvl5LoBwfg",
+                                "icon": "mark_as_unread"
+                            },
+                            {
+                                "title": "Закрепить",
+                                "deepLink": "ru.avito://1/channel/pin?channelId=u2i-JZzxhNZKslPAWvl5LoBwfg",
+                                "icon": "pin"
+                            },
+                            {
+                                "title": "Удалить чат",
+                                "deepLink": "ru.avito://1/channel/delete?channelId=u2i-JZzxhNZKslPAWvl5LoBwfg",
+                                "icon": "delete",
+                                "confirmation": {
+                                    "title": "Точно хотите удалить чат?",
+                                    "description": "",
+                                    "ok": "Да, удалить",
+                                    "cancel": "Нет, оставить"
+                                }
+                            }
+                        ],
+                        "attachMenu": {
+                            "video": {
+                                "title": "Отправить видео",
+                                "maxSizeBytes": 157286400,
+                                "maxDurationSec": 300
+                            },
+                            "image": {
+                                "title": "Отправить фото"
+                            },
+                            "location": {
+                                "title": "Указать место встречи",
+                                "sharedLocation": {
+                                    "title": "Орёл",
+                                    "lat": 52.966813,
+                                    "lon": 36.063379
+                                }
+                            },
+                            "item": {
+                                "title": "Прикрепить объявление",
+                                "itemId": 3128279408
+                            },
+                            "replies": {
+                                "title": "Быстрый ответ"
+                            }
+                        },
+                        "userId": "c134ca7ecb262ca7d98031e1fdabd157"
+                    }
+                },
+                "info": {
+                    "name": "Юрий",
+                    "avatar": {
+                        "100x100": "https://90.img.avito.st/image/1/1.vSJPMba1B8sxk9vIOQPIdWKTE8vxmtvIMZMTyQ.3SqmaFPG2YJhk0u6xT5HnxlDh9PNrNog45CMNGZIDPw",
+                        "1024x1024": "https://90.img.avito.st/image/1/1.vSJPMbatB8t5gpPZOQPIdWKTE8k._AKQW-Bh3uUuIO9o4EVpd4yQGehL4TXeQZNkiRwBKjQ",
+                        "128x128": "https://90.img.avito.st/image/1/1.vSJPMba1B8t5kJPLOQPIdWKTE8vxmpPLeZATyQ.m5giFDI4jaHbb7B6hXO6Q99-gTMKnqeE7SWHKDHS77M",
+                        "132x132": "https://90.img.avito.st/image/1/1.vSJPMba1B8txkJvLOQPIdWKTE8vxmpvLcZATyQ.onltaEbUrslUe9xU1BYhxNzdbO0ZnOxuRftFxTn7pBo",
+                        "176x176": "https://90.img.avito.st/image/1/1.vSJPMba1B8sZkPPLOQPIdWKTE8vxmvPLGZATyQ.bOA_rGPKemjnUIzYeB5aBO3icNrhNo-YP7JE6-4vGtA",
+                        "192x192": "https://90.img.avito.st/image/1/1.vSJPMba1B8t5kZPKOQPIdWKTE8vxmpPKeZETyQ.EMD8wKzye3x3X2kSx2glOK-sCg2wDZeQERiXZmwgQO0",
+                        "256x256": "https://90.img.avito.st/image/1/1.vSJPMba1B8t5lpPNOQPIdWKTE8vxmpPNeZYTyQ.UceXrO8jpVbqRThtwoMGXhhw3fbsWH3pCwsVWd5Uvm0",
+                        "25x25": "https://90.img.avito.st/image/1/1.vSJPMbaxB8vLoNNYIi6IyPmQG8HLoBPJ.domHl26yFXww-8J69qconPJEHZtNvJq4RR3BPgFGEhI",
+                        "50x50": "https://90.img.avito.st/image/1/1.vSJPMbaxB8ud9tNYIi6IyPmQG8Gd9hPJ.6jn2KPOHJpoEtf7P2hzqPTZw9U6urs2NCPORujHxrcc",
+                        "64x64": "https://90.img.avito.st/image/1/1.vSJPMba1B8t5k5PIOQPIdWKTE8vxmpPIeZMTyQ.XeFzN8gckC49H1jtkEn5j_x2hAcSFkRm3gIk7zy4Zpw",
+                        "96x96": "https://90.img.avito.st/image/1/1.vSJPMba1B8s5k9PIOQPIdWKTE8vxmtPIOZMTyQ.ogCJzdskTpAu4CEIgrj5jYnRDrehslWOXzgi7NTPX0I"
+                    },
+                    "link": {
+                        "title": "Перейти в профиль",
+                        "uri": "ru.avito://1/user/profile?userKey=c134ca7ecb262ca7d98031e1fdabd157\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjSyMDK3NDGwsC4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loA0eJcckwAAAA",
+                        "url": "/user/c134ca7ecb262ca7d98031e1fdabd157/profile?id=3128279408\u0026iid=3128279408\u0026src=messenger\u0026page_from=from_item_messenger"
+                    },
+                    "userId": "c134ca7ecb262ca7d98031e1fdabd157"
+                },
+                "users": [
+                    {
+                        "name": "Николай Колин",
+                        "lastActionTime": 1713537217,
+                        "timeDiff": 0,
+                        "statusId": 5,
+                        "id": "aae01879ec3f6ccdbbe75a93b468e142",
+                        "publicUserProfile": {
+                            "itemId": 3128279408,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=aae01879ec3f6ccdbbe75a93b468e142\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjSyMDK3NDGwsC4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loA0eJcckwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                "images": {
+                                    "128x128": "https://static.avito.ru/stub_avatars/%D0%9D/7_128x128.png",
+                                    "192x192": "https://static.avito.ru/stub_avatars/%D0%9D/7_192x192.png",
+                                    "24x24": "https://static.avito.ru/stub_avatars/%D0%9D/7_24x24.png",
+                                    "256x256": "https://static.avito.ru/stub_avatars/%D0%9D/7_256x256.png",
+                                    "36x36": "https://static.avito.ru/stub_avatars/%D0%9D/7_36x36.png",
+                                    "48x48": "https://static.avito.ru/stub_avatars/%D0%9D/7_48x48.png",
+                                    "64x64": "https://static.avito.ru/stub_avatars/%D0%9D/7_64x64.png",
+                                    "72x72": "https://static.avito.ru/stub_avatars/%D0%9D/7_72x72.png",
+                                    "96x96": "https://static.avito.ru/stub_avatars/%D0%9D/7_96x96.png"
+                                }
+                            },
+                            "url": "/user/aae01879ec3f6ccdbbe75a93b468e142/profile?id=3128279408\u0026iid=3128279408\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    },
+                    {
+                        "name": "Юрий",
+                        "lastActionTime": 1713531523,
+                        "timeDiff": 5694,
+                        "statusId": 5,
+                        "id": "c134ca7ecb262ca7d98031e1fdabd157",
+                        "publicUserProfile": {
+                            "itemId": 3128279408,
+                            "deepLink": {
+                                "title": "Перейти в профиль",
+                                "uri": "ru.avito://1/user/profile?userKey=c134ca7ecb262ca7d98031e1fdabd157\u0026context=H4sIAAAAAAAAA0u0MraqLrYyslLKTFGyzrQyNjSyMDK3NDGwsC4GSikVFyUrAVmWVkq5qcXFqXnpqUUgPlB9Yh6a-loA0eJcckwAAAA"
+                            },
+                            "avatar": {
+                                "default": "https://90.img.avito.st/image/1/1.vSJPMba1B8t5lpPNOQPIdWKTE8vxmpPNeZYTyQ.UceXrO8jpVbqRThtwoMGXhhw3fbsWH3pCwsVWd5Uvm0",
+                                "images": {
+                                    "100x100": "https://90.img.avito.st/image/1/1.vSJPMba1B8sxk9vIOQPIdWKTE8vxmtvIMZMTyQ.3SqmaFPG2YJhk0u6xT5HnxlDh9PNrNog45CMNGZIDPw",
+                                    "1024x1024": "https://90.img.avito.st/image/1/1.vSJPMbatB8t5gpPZOQPIdWKTE8k._AKQW-Bh3uUuIO9o4EVpd4yQGehL4TXeQZNkiRwBKjQ",
+                                    "128x128": "https://90.img.avito.st/image/1/1.vSJPMba1B8t5kJPLOQPIdWKTE8vxmpPLeZATyQ.m5giFDI4jaHbb7B6hXO6Q99-gTMKnqeE7SWHKDHS77M",
+                                    "132x132": "https://90.img.avito.st/image/1/1.vSJPMba1B8txkJvLOQPIdWKTE8vxmpvLcZATyQ.onltaEbUrslUe9xU1BYhxNzdbO0ZnOxuRftFxTn7pBo",
+                                    "176x176": "https://90.img.avito.st/image/1/1.vSJPMba1B8sZkPPLOQPIdWKTE8vxmvPLGZATyQ.bOA_rGPKemjnUIzYeB5aBO3icNrhNo-YP7JE6-4vGtA",
+                                    "192x192": "https://90.img.avito.st/image/1/1.vSJPMba1B8t5kZPKOQPIdWKTE8vxmpPKeZETyQ.EMD8wKzye3x3X2kSx2glOK-sCg2wDZeQERiXZmwgQO0",
+                                    "256x256": "https://90.img.avito.st/image/1/1.vSJPMba1B8t5lpPNOQPIdWKTE8vxmpPNeZYTyQ.UceXrO8jpVbqRThtwoMGXhhw3fbsWH3pCwsVWd5Uvm0",
+                                    "25x25": "https://90.img.avito.st/image/1/1.vSJPMbaxB8vLoNNYIi6IyPmQG8HLoBPJ.domHl26yFXww-8J69qconPJEHZtNvJq4RR3BPgFGEhI",
+                                    "50x50": "https://90.img.avito.st/image/1/1.vSJPMbaxB8ud9tNYIi6IyPmQG8Gd9hPJ.6jn2KPOHJpoEtf7P2hzqPTZw9U6urs2NCPORujHxrcc",
+                                    "64x64": "https://90.img.avito.st/image/1/1.vSJPMba1B8t5k5PIOQPIdWKTE8vxmpPIeZMTyQ.XeFzN8gckC49H1jtkEn5j_x2hAcSFkRm3gIk7zy4Zpw",
+                                    "96x96": "https://90.img.avito.st/image/1/1.vSJPMba1B8s5k9PIOQPIdWKTE8vxmtPIOZMTyQ.ogCJzdskTpAu4CEIgrj5jYnRDrehslWOXzgi7NTPX0I"
+                                }
+                            },
+                            "url": "/user/c134ca7ecb262ca7d98031e1fdabd157/profile?id=3128279408\u0026iid=3128279408\u0026src=messenger\u0026page_from=from_item_messenger"
+                        }
+                    }
+                ],
+                "authorId": "36ad86823617806f4e071c16f3f54ce8",
+                "lastMessage": {
+                    "id": "9833489aa161112de4ecaaa1b9e69565",
+                    "body": {
+                        "chunks": [
+                            {
+                                "type": "text",
+                                "value": {
+                                    "text": "Вы договорились с исполнителем о работе?\n\nОтвет пригодится в спорной ситуации и поможет в работе над новыми функциями Авито."
+                                }
+                            }
+                        ],
+                        "flow": "deal_confirmation_messenger",
+                        "flowType": 1,
+                        "randomId": "u2i-JZzxhNZKslPAWvl5LoBwfg-10983600204538049-1",
+                        "text": "Сообщение не поддерживается. Пожалуйста, обновите приложение"
+                    },
+                    "platformSupport": {
+                        "platforms": [
+                            "ios",
+                            "android",
+                            "web",
+                            "mav"
+                        ],
+                        "fallback": {
+                            "text": "Сообщение не поддерживается на этой платформе"
+                        }
+                    },
+                    "preview": {
+                        "text": "Вы договорились с исполнителем о работе?\n\nОтвет пригодится в спорной ситуации и поможет в работе над новыми функциями Авито."
+                    },
+                    "channelId": "u2i-JZzxhNZKslPAWvl5LoBwfg",
+                    "type": "system",
+                    "subtype": "platform",
+                    "created": 17008423595184386,
+                    "isDeleted": false,
+                    "isRead": false,
+                    "isSpam": false,
+                    "delivered": 17008423595184386,
+                    "uid": "aae01879ec3f6ccdbbe75a93b468e142",
+                    "fromUid": "36ad86823617806f4e071c16f3f54ce8"
+                }
+            }
+        ]
+    }
+}
